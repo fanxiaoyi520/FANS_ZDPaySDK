@@ -1,0 +1,1767 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3841BC40246BDD6A00A217C9 /* pic_wuka@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3841BC3D246BDD6A00A217C9 /* pic_wuka@2x.png */; };
+		3841BC41246BDD6A00A217C9 /* pic_wuka@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3841BC3E246BDD6A00A217C9 /* pic_wuka@3x.png */; };
+		3841BC42246BDD6A00A217C9 /* pic_wuka.png in Resources */ = {isa = PBXBuildFile; fileRef = 3841BC3F246BDD6A00A217C9 /* pic_wuka.png */; };
+		384CF0E6246E7C8B00833674 /* popup_youxiao@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 384CF0E0246E7C8A00833674 /* popup_youxiao@3x.png */; };
+		384CF0E7246E7C8B00833674 /* popup_cvn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 384CF0E1246E7C8B00833674 /* popup_cvn@2x.png */; };
+		384CF0E8246E7C8B00833674 /* popup_cvn.png in Resources */ = {isa = PBXBuildFile; fileRef = 384CF0E2246E7C8B00833674 /* popup_cvn.png */; };
+		384CF0E9246E7C8B00833674 /* popup_youxiao.png in Resources */ = {isa = PBXBuildFile; fileRef = 384CF0E3246E7C8B00833674 /* popup_youxiao.png */; };
+		384CF0EA246E7C8B00833674 /* popup_youxiao@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 384CF0E4246E7C8B00833674 /* popup_youxiao@2x.png */; };
+		384CF0EB246E7C8B00833674 /* popup_cvn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 384CF0E5246E7C8B00833674 /* popup_cvn@3x.png */; };
+		38568781246FEA6C009519F7 /* libPaymentControl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3856877F246FEA6C009519F7 /* libPaymentControl.a */; };
+		3891FF9324503DCF00B2A5F0 /* icon_zjlx.png in Resources */ = {isa = PBXBuildFile; fileRef = 3891FF8D24503DCF00B2A5F0 /* icon_zjlx.png */; };
+		3891FF9424503DCF00B2A5F0 /* icon_sjihao@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3891FF8E24503DCF00B2A5F0 /* icon_sjihao@3x.png */; };
+		3891FF9524503DCF00B2A5F0 /* icon_zjlx@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3891FF8F24503DCF00B2A5F0 /* icon_zjlx@2x.png */; };
+		3891FF9624503DCF00B2A5F0 /* icon_sjihao@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3891FF9024503DCF00B2A5F0 /* icon_sjihao@2x.png */; };
+		3891FF9724503DCF00B2A5F0 /* icon_zjlx@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3891FF9124503DCF00B2A5F0 /* icon_zjlx@3x.png */; };
+		3891FF9824503DCF00B2A5F0 /* icon_sjihao.png in Resources */ = {isa = PBXBuildFile; fileRef = 3891FF9224503DCF00B2A5F0 /* icon_sjihao.png */; };
+		3891FF9F2450436A00B2A5F0 /* icon_cvn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3891FF992450436A00B2A5F0 /* icon_cvn@3x.png */; };
+		3891FFA02450436A00B2A5F0 /* icon_zj_sel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3891FF9A2450436A00B2A5F0 /* icon_zj_sel@3x.png */; };
+		3891FFA12450436A00B2A5F0 /* icon_cvn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3891FF9B2450436A00B2A5F0 /* icon_cvn@2x.png */; };
+		3891FFA22450436A00B2A5F0 /* icon_cvn.png in Resources */ = {isa = PBXBuildFile; fileRef = 3891FF9C2450436A00B2A5F0 /* icon_cvn.png */; };
+		3891FFA32450436A00B2A5F0 /* icon_zj_sel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3891FF9D2450436A00B2A5F0 /* icon_zj_sel@2x.png */; };
+		3891FFA42450436A00B2A5F0 /* icon_zj_sel.png in Resources */ = {isa = PBXBuildFile; fileRef = 3891FF9E2450436A00B2A5F0 /* icon_zj_sel.png */; };
+		3891FFA7245058C000B2A5F0 /* ZD_PayForgetPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3891FFA6245058C000B2A5F0 /* ZD_PayForgetPasswordViewController.m */; };
+		38A7578824514ABD00035E1D /* ZDPay_SetConfirPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A7578724514ABD00035E1D /* ZDPay_SetConfirPasswordViewController.m */; };
+		38E2419724653D1500815218 /* icon_card_add@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38E2419424653D1500815218 /* icon_card_add@2x.png */; };
+		38E2419824653D1500815218 /* icon_card_add.png in Resources */ = {isa = PBXBuildFile; fileRef = 38E2419524653D1500815218 /* icon_card_add.png */; };
+		38E2419924653D1500815218 /* icon_card_add@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38E2419624653D1500815218 /* icon_card_add@3x.png */; };
+		38E809A62457D69300071DF3 /* ZDPayInternationalizationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E809A52457D69300071DF3 /* ZDPayInternationalizationModel.m */; };
+		38E8D6A6244FECDD00D30FE9 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38E8D6A5244FECDD00D30FE9 /* WebKit.framework */; };
+		38EBCF5724595EEF00FE1D30 /* NNValidationCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EBCF5624595EEF00FE1D30 /* NNValidationCodeView.m */; };
+		38EC881B244E9BF9007C30AA /* ZDGPayManagerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EC8791244E9BF9007C30AA /* ZDGPayManagerTool.m */; };
+		38EC881C244E9BF9007C30AA /* libUPAPayPlugin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38EC8799244E9BF9007C30AA /* libUPAPayPlugin.a */; };
+		38EC881D244E9BF9007C30AA /* PayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EC879A244E9BF9007C30AA /* PayModel.m */; };
+		38EC881E244E9BF9007C30AA /* WXUtil.mm in Sources */ = {isa = PBXBuildFile; fileRef = 38EC879E244E9BF9007C30AA /* WXUtil.mm */; };
+		38EC881F244E9BF9007C30AA /* ApiXml.mm in Sources */ = {isa = PBXBuildFile; fileRef = 38EC87A1244E9BF9007C30AA /* ApiXml.mm */; };
+		38EC8820244E9BF9007C30AA /* payRequsestHandler.mm in Sources */ = {isa = PBXBuildFile; fileRef = 38EC87A2244E9BF9007C30AA /* payRequsestHandler.mm */; };
+		38EC8821244E9BF9007C30AA /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38EC87A7244E9BF9007C30AA /* libWeChatSDK.a */; };
+		38EC8822244E9BF9007C30AA /* WeiXinPayTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EC87A8244E9BF9007C30AA /* WeiXinPayTool.m */; };
+		38EC8823244E9BF9007C30AA /* Order.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EC87AC244E9BF9007C30AA /* Order.m */; };
+		38EC8824244E9BF9007C30AA /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38EC87AD244E9BF9007C30AA /* libcrypto.a */; };
+		38EC8825244E9BF9007C30AA /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 38EC87AE244E9BF9007C30AA /* AlipaySDK.bundle */; };
+		38EC8826244E9BF9007C30AA /* openssl_wrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EC87B2244E9BF9007C30AA /* openssl_wrapper.m */; };
+		38EC8828244E9BF9007C30AA /* RSADataVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EC87B8244E9BF9007C30AA /* RSADataVerifier.m */; };
+		38EC8829244E9BF9007C30AA /* NSDataEx.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EC87BA244E9BF9007C30AA /* NSDataEx.m */; };
+		38EC882B244E9BF9007C30AA /* base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EC87BE244E9BF9007C30AA /* base64.m */; };
+		38EC882D244E9BF9007C30AA /* RSADataSigner.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EC87C1244E9BF9007C30AA /* RSADataSigner.m */; };
+		38EC882E244E9BF9007C30AA /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38EC87C3244E9BF9007C30AA /* libssl.a */; };
+		38EC882F244E9BF9007C30AA /* APAuthV2Info.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EC87C4244E9BF9007C30AA /* APAuthV2Info.m */; };
+		38EC8830244E9BF9007C30AA /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38EC8811244E9BF9007C30AA /* AlipaySDK.framework */; };
+		38EC8831244E9BF9007C30AA /* AlipayTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EC8812244E9BF9007C30AA /* AlipayTool.m */; };
+		38EC8833244E9BF9007C30AA /* UPPayTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EC8819244E9BF9007C30AA /* UPPayTool.m */; };
+		38EC8836244E9D4D007C30AA /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 38EC8835244E9D4D007C30AA /* libsqlite3.0.tbd */; };
+		38EC8838244E9D55007C30AA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38EC8837244E9D55007C30AA /* SystemConfiguration.framework */; };
+		38EC883A244E9D60007C30AA /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38EC8839244E9D60007C30AA /* CoreTelephony.framework */; };
+		38EC883C244E9D6A007C30AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38EC883B244E9D6A007C30AA /* Foundation.framework */; };
+		38EC883E244E9D72007C30AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38EC883D244E9D72007C30AA /* UIKit.framework */; };
+		38EC8840244E9D7D007C30AA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38EC883F244E9D7D007C30AA /* CoreGraphics.framework */; };
+		38EC8842244E9D88007C30AA /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38EC8841244E9D88007C30AA /* CoreText.framework */; };
+		38EC8844244E9D95007C30AA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38EC8843244E9D95007C30AA /* QuartzCore.framework */; };
+		38EC8846244E9DA3007C30AA /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 38EC8845244E9DA3007C30AA /* libz.tbd */; };
+		38EC8848244E9DA9007C30AA /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38EC8847244E9DA9007C30AA /* CFNetwork.framework */; };
+		38EC884A244E9DB1007C30AA /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38EC8849244E9DB1007C30AA /* PassKit.framework */; };
+		38EC884D244ED7A5007C30AA /* ZDPay_AddBankModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EC884C244ED7A5007C30AA /* ZDPay_AddBankModel.m */; };
+		38EEB4AF244D2B480064E4FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EEB4AE244D2B480064E4FC /* AppDelegate.m */; };
+		38EEB4B8244D2B480064E4FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB4B6244D2B480064E4FC /* Main.storyboard */; };
+		38EEB4BA244D2B4A0064E4FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB4B9244D2B4A0064E4FC /* Assets.xcassets */; };
+		38EEB4BD244D2B4A0064E4FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB4BB244D2B4A0064E4FC /* LaunchScreen.storyboard */; };
+		38EEB4C0244D2B4A0064E4FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EEB4BF244D2B4A0064E4FC /* main.m */; };
+		38EEB4CB244D31C70064E4FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EEB4C9244D31C70064E4FC /* ViewController.m */; };
+		38EEB579244D31E90064E4FC /* ZDPayRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EEB4CF244D31E90064E4FC /* ZDPayRootViewController.m */; };
+		38EEB57A244D31E90064E4FC /* ZDPayRootModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EEB4D0244D31E90064E4FC /* ZDPayRootModel.m */; };
+		38EEB57B244D31E90064E4FC /* ZDNaviBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EEB4D4244D31E90064E4FC /* ZDNaviBarView.m */; };
+		38EEB57C244D31E90064E4FC /* EncryptAndDecryptTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EEB4D6244D31E90064E4FC /* EncryptAndDecryptTool.m */; };
+		38EEB57D244D31E90064E4FC /* CountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EEB4DB244D31E90064E4FC /* CountDown.m */; };
+		38EEB57E244D31E90064E4FC /* ZDPayFuncTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EEB4DC244D31E90064E4FC /* ZDPayFuncTool.m */; };
+		38EEB57F244D31E90064E4FC /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EEB4DD244D31E90064E4FC /* UIView+Toast.m */; };
+		38EEB580244D31E90064E4FC /* ZDPayNetRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EEB4E0244D31E90064E4FC /* ZDPayNetRequestManager.m */; };
+		38EEB581244D31E90064E4FC /* ZDPayPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EEB4E2244D31E90064E4FC /* ZDPayPopView.m */; };
+		38EEB582244D31E90064E4FC /* icon_zhankai@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB4E7244D31E90064E4FC /* icon_zhankai@2x.png */; };
+		38EEB583244D31E90064E4FC /* icon_yingcang.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB4E8244D31E90064E4FC /* icon_yingcang.png */; };
+		38EEB584244D31E90064E4FC /* bohaiyinhang@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB4E9244D31E90064E4FC /* bohaiyinhang@3x.png */; };
+		38EEB585244D31E90064E4FC /* icon_zhankai@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB4EA244D31E90064E4FC /* icon_zhankai@3x.png */; };
+		38EEB586244D31E90064E4FC /* icon_add@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB4EB244D31E90064E4FC /* icon_add@2x.png */; };
+		38EEB587244D31E90064E4FC /* icon_add@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB4EC244D31E90064E4FC /* icon_add@3x.png */; };
+		38EEB588244D31E90064E4FC /* icon_yingcang@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB4ED244D31E90064E4FC /* icon_yingcang@2x.png */; };
+		38EEB589244D31E90064E4FC /* icon_yingcang@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB4EE244D31E90064E4FC /* icon_yingcang@3x.png */; };
+		38EEB58A244D31E90064E4FC /* icon_zhankai.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB4EF244D31E90064E4FC /* icon_zhankai.png */; };
+		38EEB58B244D31E90064E4FC /* icon_add.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB4F0244D31E90064E4FC /* icon_add.png */; };
+		38EEB58C244D31E90064E4FC /* alipay-hk@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB4F2244D31E90064E4FC /* alipay-hk@2x.png */; };
+		38EEB58D244D31E90064E4FC /* icon_shop_fill@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB4F3244D31E90064E4FC /* icon_shop_fill@3x.png */; };
+		38EEB58E244D31E90064E4FC /* icon_dd_fill@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB4F4244D31E90064E4FC /* icon_dd_fill@3x.png */; };
+		38EEB58F244D31E90064E4FC /* pic_success.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB4F5244D31E90064E4FC /* pic_success.png */; };
+		38EEB590244D31E90064E4FC /* icon_map_fill@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB4F6244D31E90064E4FC /* icon_map_fill@3x.png */; };
+		38EEB591244D31E90064E4FC /* pic_iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB4F7244D31E90064E4FC /* pic_iphone.png */; };
+		38EEB592244D31E90064E4FC /* icon_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB4F8244D31E90064E4FC /* icon_close.png */; };
+		38EEB593244D31E90064E4FC /* icon_bdsj@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB4F9244D31E90064E4FC /* icon_bdsj@2x.png */; };
+		38EEB594244D31E90064E4FC /* icon_right.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB4FA244D31E90064E4FC /* icon_right.png */; };
+		38EEB595244D31E90064E4FC /* btn_unch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB4FB244D31E90064E4FC /* btn_unch@2x.png */; };
+		38EEB596244D31E90064E4FC /* icon_mine_fill@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB4FC244D31E90064E4FC /* icon_mine_fill@2x.png */; };
+		38EEB597244D31E90064E4FC /* icon_dd_fill.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB4FD244D31E90064E4FC /* icon_dd_fill.png */; };
+		38EEB598244D31E90064E4FC /* icon_gr@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB4FE244D31E90064E4FC /* icon_gr@2x.png */; };
+		38EEB599244D31E90064E4FC /* icon_gr@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB4FF244D31E90064E4FC /* icon_gr@3x.png */; };
+		38EEB59A244D31E90064E4FC /* btn_unch@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB500244D31E90064E4FC /* btn_unch@3x.png */; };
+		38EEB59B244D31E90064E4FC /* icon_jiaoyimingxi.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB501244D31E90064E4FC /* icon_jiaoyimingxi.png */; };
+		38EEB59C244D31E90064E4FC /* icon_mine_fill@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB502244D31E90064E4FC /* icon_mine_fill@3x.png */; };
+		38EEB59D244D31E90064E4FC /* icon_bdsj@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB503244D31E90064E4FC /* icon_bdsj@3x.png */; };
+		38EEB59E244D31E90064E4FC /* icon_map_fill@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB504244D31E90064E4FC /* icon_map_fill@2x.png */; };
+		38EEB59F244D31E90064E4FC /* btn_choose.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB505244D31E90064E4FC /* btn_choose.png */; };
+		38EEB5A0244D31E90064E4FC /* btn_xieyi_unsel.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB506244D31E90064E4FC /* btn_xieyi_unsel.png */; };
+		38EEB5A1244D31E90064E4FC /* icon_dd_fill@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB507244D31E90064E4FC /* icon_dd_fill@2x.png */; };
+		38EEB5A2244D31E90064E4FC /* icon_shop_fill@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB508244D31E90064E4FC /* icon_shop_fill@2x.png */; };
+		38EEB5A3244D31E90064E4FC /* alipay-hk@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB509244D31E90064E4FC /* alipay-hk@3x.png */; };
+		38EEB5A4244D31E90064E4FC /* icon_wallet.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB50A244D31E90064E4FC /* icon_wallet.png */; };
+		38EEB5A5244D31E90064E4FC /* icon_jiaoyimingxi@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB50B244D31E90064E4FC /* icon_jiaoyimingxi@3x.png */; };
+		38EEB5A6244D31E90064E4FC /* pic_type.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB50C244D31E90064E4FC /* pic_type.png */; };
+		38EEB5A7244D31E90064E4FC /* icon_dd@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB50D244D31E90064E4FC /* icon_dd@3x.png */; };
+		38EEB5A8244D31E90064E4FC /* icon_dd.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB50E244D31E90064E4FC /* icon_dd.png */; };
+		38EEB5A9244D31E90064E4FC /* icon_sm.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB50F244D31E90064E4FC /* icon_sm.png */; };
+		38EEB5AA244D31E90064E4FC /* card_yecz@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB510244D31E90064E4FC /* card_yecz@3x.png */; };
+		38EEB5AB244D31E90064E4FC /* card_yajincz@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB511244D31E90064E4FC /* card_yajincz@2x.png */; };
+		38EEB5AC244D31E90064E4FC /* card_yecz.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB512244D31E90064E4FC /* card_yecz.png */; };
+		38EEB5AD244D31E90064E4FC /* icon_qiehuan.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB513244D31E90064E4FC /* icon_qiehuan.png */; };
+		38EEB5AE244D31E90064E4FC /* alipay-hk.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB514244D31E90064E4FC /* alipay-hk.png */; };
+		38EEB5AF244D31E90064E4FC /* icon_dingdan@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB515244D31E90064E4FC /* icon_dingdan@3x.png */; };
+		38EEB5B0244D31E90064E4FC /* icon_dingdan.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB516244D31E90064E4FC /* icon_dingdan.png */; };
+		38EEB5B1244D31E90064E4FC /* icon_dingdan@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB517244D31E90064E4FC /* icon_dingdan@2x.png */; };
+		38EEB5B2244D31E90064E4FC /* card_yecz@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB518244D31E90064E4FC /* card_yecz@2x.png */; };
+		38EEB5B3244D31E90064E4FC /* card_yajincz@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB519244D31E90064E4FC /* card_yajincz@3x.png */; };
+		38EEB5B4244D31E90064E4FC /* icon_dd@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB51A244D31E90064E4FC /* icon_dd@2x.png */; };
+		38EEB5B5244D31E90064E4FC /* icon_hlep.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB51B244D31E90064E4FC /* icon_hlep.png */; };
+		38EEB5B6244D31E90064E4FC /* icon_jiaoyimingxi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB51C244D31E90064E4FC /* icon_jiaoyimingxi@2x.png */; };
+		38EEB5B7244D31E90064E4FC /* icon_signout.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB51D244D31E90064E4FC /* icon_signout.png */; };
+		38EEB5B8244D31E90064E4FC /* pic_type@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB51E244D31E90064E4FC /* pic_type@3x.png */; };
+		38EEB5B9244D31E90064E4FC /* icon_guanyu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB51F244D31E90064E4FC /* icon_guanyu@2x.png */; };
+		38EEB5BA244D31E90064E4FC /* pic_iphone@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB520244D31E90064E4FC /* pic_iphone@3x.png */; };
+		38EEB5BB244D31E90064E4FC /* btn_xieyi_selete.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB521244D31E90064E4FC /* btn_xieyi_selete.png */; };
+		38EEB5BC244D31E90064E4FC /* icon_mine_fill.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB522244D31E90064E4FC /* icon_mine_fill.png */; };
+		38EEB5BD244D31E90064E4FC /* icon_map.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB523244D31E90064E4FC /* icon_map.png */; };
+		38EEB5BE244D31E90064E4FC /* icon_guzhang@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB524244D31E90064E4FC /* icon_guzhang@3x.png */; };
+		38EEB5BF244D31E90064E4FC /* icon_right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB525244D31E90064E4FC /* icon_right@2x.png */; };
+		38EEB5C0244D31E90064E4FC /* icon_hlep_fill.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB526244D31E90064E4FC /* icon_hlep_fill.png */; };
+		38EEB5C1244D31E90064E4FC /* pic_success@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB527244D31E90064E4FC /* pic_success@3x.png */; };
+		38EEB5C2244D31E90064E4FC /* btn_xieyi_selete@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB528244D31E90064E4FC /* btn_xieyi_selete@3x.png */; };
+		38EEB5C3244D31E90064E4FC /* icon_hlep_fill@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB529244D31E90064E4FC /* icon_hlep_fill@3x.png */; };
+		38EEB5C4244D31E90064E4FC /* icon_hlep@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB52A244D31E90064E4FC /* icon_hlep@3x.png */; };
+		38EEB5C5244D31E90064E4FC /* pic_android@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB52B244D31E90064E4FC /* pic_android@2x.png */; };
+		38EEB5C6244D31E90064E4FC /* icon_wallet@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB52C244D31E90064E4FC /* icon_wallet@2x.png */; };
+		38EEB5C7244D31E90064E4FC /* icon_qiehuan@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB52D244D31E90064E4FC /* icon_qiehuan@3x.png */; };
+		38EEB5C8244D31E90064E4FC /* icon_qiehuan@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB52E244D31E90064E4FC /* icon_qiehuan@2x.png */; };
+		38EEB5C9244D31E90064E4FC /* icon_wallet@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB52F244D31E90064E4FC /* icon_wallet@3x.png */; };
+		38EEB5CA244D31E90064E4FC /* pic_android@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB530244D31E90064E4FC /* pic_android@3x.png */; };
+		38EEB5CB244D31E90064E4FC /* icon_map_fill.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB531244D31E90064E4FC /* icon_map_fill.png */; };
+		38EEB5CC244D31E90064E4FC /* icon_hlep@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB532244D31E90064E4FC /* icon_hlep@2x.png */; };
+		38EEB5CD244D31E90064E4FC /* btn_xieyi_selete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB533244D31E90064E4FC /* btn_xieyi_selete@2x.png */; };
+		38EEB5CE244D31E90064E4FC /* icon_hlep_fill@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB534244D31E90064E4FC /* icon_hlep_fill@2x.png */; };
+		38EEB5CF244D31E90064E4FC /* pic_success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB535244D31E90064E4FC /* pic_success@2x.png */; };
+		38EEB5D0244D31E90064E4FC /* icon_shop.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB536244D31E90064E4FC /* icon_shop.png */; };
+		38EEB5D1244D31E90064E4FC /* icon_right@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB537244D31E90064E4FC /* icon_right@3x.png */; };
+		38EEB5D2244D31E90064E4FC /* icon_gr.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB538244D31E90064E4FC /* icon_gr.png */; };
+		38EEB5D3244D31E90064E4FC /* weixin_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB539244D31E90064E4FC /* weixin_icon.png */; };
+		38EEB5D4244D31E90064E4FC /* icon_guzhang@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB53A244D31E90064E4FC /* icon_guzhang@2x.png */; };
+		38EEB5D5244D31E90064E4FC /* btn_unch.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB53B244D31E90064E4FC /* btn_unch.png */; };
+		38EEB5D6244D31E90064E4FC /* icon_guanyu.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB53C244D31E90064E4FC /* icon_guanyu.png */; };
+		38EEB5D7244D31E90064E4FC /* pic_iphone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB53D244D31E90064E4FC /* pic_iphone@2x.png */; };
+		38EEB5D8244D31E90064E4FC /* pic_type@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB53E244D31E90064E4FC /* pic_type@2x.png */; };
+		38EEB5D9244D31E90064E4FC /* icon_guanyu@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB53F244D31E90064E4FC /* icon_guanyu@3x.png */; };
+		38EEB5DA244D31E90064E4FC /* btn_choose@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB540244D31E90064E4FC /* btn_choose@3x.png */; };
+		38EEB5DB244D31E90064E4FC /* icon_signout@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB541244D31E90064E4FC /* icon_signout@2x.png */; };
+		38EEB5DC244D31E90064E4FC /* card_yajincz.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB542244D31E90064E4FC /* card_yajincz.png */; };
+		38EEB5DD244D31E90064E4FC /* icon_guzhang.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB543244D31E90064E4FC /* icon_guzhang.png */; };
+		38EEB5DE244D31E90064E4FC /* icon_map@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB544244D31E90064E4FC /* icon_map@2x.png */; };
+		38EEB5DF244D31E90064E4FC /* icon_close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB545244D31E90064E4FC /* icon_close@3x.png */; };
+		38EEB5E0244D31E90064E4FC /* pic_android.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB546244D31E90064E4FC /* pic_android.png */; };
+		38EEB5E1244D31E90064E4FC /* btn_xieyi_unsel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB547244D31E90064E4FC /* btn_xieyi_unsel@2x.png */; };
+		38EEB5E2244D31E90064E4FC /* pic_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB548244D31E90064E4FC /* pic_01.png */; };
+		38EEB5E3244D31E90064E4FC /* pic_01@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB549244D31E90064E4FC /* pic_01@3x.png */; };
+		38EEB5E4244D31E90064E4FC /* icon_shop@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB54A244D31E90064E4FC /* icon_shop@3x.png */; };
+		38EEB5E5244D31E90064E4FC /* weixin_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB54B244D31E90064E4FC /* weixin_icon@2x.png */; };
+		38EEB5E6244D31E90064E4FC /* icon_sm@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB54C244D31E90064E4FC /* icon_sm@3x.png */; };
+		38EEB5E7244D31E90064E4FC /* icon_sm@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB54D244D31E90064E4FC /* icon_sm@2x.png */; };
+		38EEB5E8244D31E90064E4FC /* weixin_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB54E244D31E90064E4FC /* weixin_icon@3x.png */; };
+		38EEB5E9244D31E90064E4FC /* icon_bdsj.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB54F244D31E90064E4FC /* icon_bdsj.png */; };
+		38EEB5EA244D31E90064E4FC /* pic_01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB550244D31E90064E4FC /* pic_01@2x.png */; };
+		38EEB5EB244D31E90064E4FC /* icon_shop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB551244D31E90064E4FC /* icon_shop@2x.png */; };
+		38EEB5EC244D31E90064E4FC /* btn_xieyi_unsel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB552244D31E90064E4FC /* btn_xieyi_unsel@3x.png */; };
+		38EEB5ED244D31E90064E4FC /* icon_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB553244D31E90064E4FC /* icon_close@2x.png */; };
+		38EEB5EE244D31E90064E4FC /* icon_map@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB554244D31E90064E4FC /* icon_map@3x.png */; };
+		38EEB5EF244D31E90064E4FC /* icon_shop_fill.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB555244D31E90064E4FC /* icon_shop_fill.png */; };
+		38EEB5F0244D31E90064E4FC /* btn_choose@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB556244D31E90064E4FC /* btn_choose@2x.png */; };
+		38EEB5F1244D31E90064E4FC /* icon_signout@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB557244D31E90064E4FC /* icon_signout@3x.png */; };
+		38EEB5F2244D31E90064E4FC /* ZDPay_OrderSureModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EEB559244D31E90064E4FC /* ZDPay_OrderSureModel.m */; };
+		38EEB5F3244D31E90064E4FC /* ZDPay_OrderSurePayListRespModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EEB55A244D31E90064E4FC /* ZDPay_OrderSurePayListRespModel.m */; };
+		38EEB5F4244D31E90064E4FC /* ZDPay_OrderSureBankListRespModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EEB55C244D31E90064E4FC /* ZDPay_OrderSureBankListRespModel.m */; };
+		38EEB5F5244D31E90064E4FC /* ZDPay_OrderSureRespModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EEB55F244D31E90064E4FC /* ZDPay_OrderSureRespModel.m */; };
+		38EEB5F6244D31E90064E4FC /* ZDPay_AddBankCardSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EEB564244D31E90064E4FC /* ZDPay_AddBankCardSecondViewController.m */; };
+		38EEB5F7244D31E90064E4FC /* ZDPay_SecurityVerificationSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EEB568244D31E90064E4FC /* ZDPay_SecurityVerificationSecondViewController.m */; };
+		38EEB5F8244D31E90064E4FC /* ZDPay_MyWalletViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EEB569244D31E90064E4FC /* ZDPay_MyWalletViewController.m */; };
+		38EEB5F9244D31E90064E4FC /* ZDPay_OrderSureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EEB56B244D31E90064E4FC /* ZDPay_OrderSureViewController.m */; };
+		38EEB5FA244D31E90064E4FC /* ZDPay_AddBankCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EEB56C244D31E90064E4FC /* ZDPay_AddBankCardViewController.m */; };
+		38EEB5FB244D31E90064E4FC /* ZDPay_SafetyCertificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EEB56D244D31E90064E4FC /* ZDPay_SafetyCertificationViewController.m */; };
+		38EEB5FC244D31E90064E4FC /* ZDPay_BankCardSecondTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EEB570244D31E90064E4FC /* ZDPay_BankCardSecondTableViewCell.m */; };
+		38EEB5FD244D31E90064E4FC /* ZDPay_OrderSureTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EEB572244D31E90064E4FC /* ZDPay_OrderSureTableViewCell.m */; };
+		38EEB5FE244D31E90064E4FC /* ZDPay_OrderSureFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EEB573244D31E90064E4FC /* ZDPay_OrderSureFooterView.m */; };
+		38EEB5FF244D31E90064E4FC /* ZDPay_MywalletTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EEB575244D31E90064E4FC /* ZDPay_MywalletTableViewCell.m */; };
+		38EEB600244D31E90064E4FC /* ZDPay_OrderSureHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EEB576244D31E90064E4FC /* ZDPay_OrderSureHeaderView.m */; };
+		38EEB701244D38620064E4FC /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EEB64F244D38620064E4FC /* MJPropertyType.m */; };
+		38EEB702244D38620064E4FC /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EEB652244D38620064E4FC /* NSObject+MJKeyValue.m */; };
+		38EEB703244D38620064E4FC /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EEB653244D38620064E4FC /* MJProperty.m */; };
+		38EEB704244D38620064E4FC /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EEB655244D38620064E4FC /* NSObject+MJCoding.m */; };
+		38EEB705244D38620064E4FC /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EEB657244D38620064E4FC /* MJExtensionConst.m */; };
+		38EEB706244D38620064E4FC /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EEB658244D38620064E4FC /* NSObject+MJProperty.m */; };
+		38EEB707244D38620064E4FC /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EEB65A244D38620064E4FC /* NSObject+MJClass.m */; };
+		38EEB708244D38620064E4FC /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EEB65B244D38620064E4FC /* NSString+MJExtension.m */; };
+		38EEB709244D38620064E4FC /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EEB65C244D38620064E4FC /* MJPropertyKey.m */; };
+		38EEB70A244D38620064E4FC /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EEB660244D38620064E4FC /* MJFoundation.m */; };
+		38EEB750244D39080064E4FC /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EEB74E244D39080064E4FC /* UIView+Frame.m */; };
+		38EEB77E244D3DC90064E4FC /* class_navbar_icon_return_nor.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB77B244D3DC90064E4FC /* class_navbar_icon_return_nor.png */; };
+		38EEB77F244D3DC90064E4FC /* class_navbar_icon_return_nor@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB77C244D3DC90064E4FC /* class_navbar_icon_return_nor@3x.png */; };
+		38EEB780244D3DC90064E4FC /* class_navbar_icon_return_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB77D244D3DC90064E4FC /* class_navbar_icon_return_nor@2x.png */; };
+		38EEB789244D90650064E4FC /* ZDPay_OrderBankListTokenModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EEB788244D90650064E4FC /* ZDPay_OrderBankListTokenModel.m */; };
+		38EEB78C244DA2B50064E4FC /* ZDPay_AddBankCardReqModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EEB78B244DA2B50064E4FC /* ZDPay_AddBankCardReqModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3841BC3D246BDD6A00A217C9 /* pic_wuka@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pic_wuka@2x.png"; sourceTree = "<group>"; };
+		3841BC3E246BDD6A00A217C9 /* pic_wuka@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pic_wuka@3x.png"; sourceTree = "<group>"; };
+		3841BC3F246BDD6A00A217C9 /* pic_wuka.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic_wuka.png; sourceTree = "<group>"; };
+		384CF0E0246E7C8A00833674 /* popup_youxiao@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popup_youxiao@3x.png"; sourceTree = "<group>"; };
+		384CF0E1246E7C8B00833674 /* popup_cvn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popup_cvn@2x.png"; sourceTree = "<group>"; };
+		384CF0E2246E7C8B00833674 /* popup_cvn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popup_cvn.png; sourceTree = "<group>"; };
+		384CF0E3246E7C8B00833674 /* popup_youxiao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popup_youxiao.png; sourceTree = "<group>"; };
+		384CF0E4246E7C8B00833674 /* popup_youxiao@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popup_youxiao@2x.png"; sourceTree = "<group>"; };
+		384CF0E5246E7C8B00833674 /* popup_cvn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popup_cvn@3x.png"; sourceTree = "<group>"; };
+		3856877F246FEA6C009519F7 /* libPaymentControl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPaymentControl.a; sourceTree = "<group>"; };
+		38568780246FEA6C009519F7 /* UPPaymentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPPaymentControl.h; sourceTree = "<group>"; };
+		3891FF8D24503DCF00B2A5F0 /* icon_zjlx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_zjlx.png; sourceTree = "<group>"; };
+		3891FF8E24503DCF00B2A5F0 /* icon_sjihao@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_sjihao@3x.png"; sourceTree = "<group>"; };
+		3891FF8F24503DCF00B2A5F0 /* icon_zjlx@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_zjlx@2x.png"; sourceTree = "<group>"; };
+		3891FF9024503DCF00B2A5F0 /* icon_sjihao@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_sjihao@2x.png"; sourceTree = "<group>"; };
+		3891FF9124503DCF00B2A5F0 /* icon_zjlx@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_zjlx@3x.png"; sourceTree = "<group>"; };
+		3891FF9224503DCF00B2A5F0 /* icon_sjihao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_sjihao.png; sourceTree = "<group>"; };
+		3891FF992450436A00B2A5F0 /* icon_cvn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_cvn@3x.png"; sourceTree = "<group>"; };
+		3891FF9A2450436A00B2A5F0 /* icon_zj_sel@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_zj_sel@3x.png"; sourceTree = "<group>"; };
+		3891FF9B2450436A00B2A5F0 /* icon_cvn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_cvn@2x.png"; sourceTree = "<group>"; };
+		3891FF9C2450436A00B2A5F0 /* icon_cvn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_cvn.png; sourceTree = "<group>"; };
+		3891FF9D2450436A00B2A5F0 /* icon_zj_sel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_zj_sel@2x.png"; sourceTree = "<group>"; };
+		3891FF9E2450436A00B2A5F0 /* icon_zj_sel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_zj_sel.png; sourceTree = "<group>"; };
+		3891FFA5245058C000B2A5F0 /* ZD_PayForgetPasswordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZD_PayForgetPasswordViewController.h; sourceTree = "<group>"; };
+		3891FFA6245058C000B2A5F0 /* ZD_PayForgetPasswordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZD_PayForgetPasswordViewController.m; sourceTree = "<group>"; };
+		38A7578624514ABD00035E1D /* ZDPay_SetConfirPasswordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZDPay_SetConfirPasswordViewController.h; sourceTree = "<group>"; };
+		38A7578724514ABD00035E1D /* ZDPay_SetConfirPasswordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDPay_SetConfirPasswordViewController.m; sourceTree = "<group>"; };
+		38C85143245523CF00F4D78F /* AliSDKDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AliSDKDemo-Prefix.pch"; sourceTree = "<group>"; };
+		38E2419424653D1500815218 /* icon_card_add@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_card_add@2x.png"; sourceTree = "<group>"; };
+		38E2419524653D1500815218 /* icon_card_add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_card_add.png; sourceTree = "<group>"; };
+		38E2419624653D1500815218 /* icon_card_add@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_card_add@3x.png"; sourceTree = "<group>"; };
+		38E809A42457D69300071DF3 /* ZDPayInternationalizationModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZDPayInternationalizationModel.h; sourceTree = "<group>"; };
+		38E809A52457D69300071DF3 /* ZDPayInternationalizationModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDPayInternationalizationModel.m; sourceTree = "<group>"; };
+		38E8D6A5244FECDD00D30FE9 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		38E9F0AF24566AA100935A3B /* ZDPaySDK.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ZDPaySDK.entitlements; sourceTree = "<group>"; };
+		38EBCF5524595EEF00FE1D30 /* NNValidationCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNValidationCodeView.h; sourceTree = "<group>"; };
+		38EBCF5624595EEF00FE1D30 /* NNValidationCodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNValidationCodeView.m; sourceTree = "<group>"; };
+		38EBCF592459810900FE1D30 /* ZDPaySDKDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ZDPaySDKDebug.entitlements; sourceTree = "<group>"; };
+		38EC8791244E9BF9007C30AA /* ZDGPayManagerTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDGPayManagerTool.m; sourceTree = "<group>"; };
+		38EC8792244E9BF9007C30AA /* ZDPayFrameWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDPayFrameWork.h; sourceTree = "<group>"; };
+		38EC8796244E9BF9007C30AA /* UPAPayPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPAPayPlugin.h; sourceTree = "<group>"; };
+		38EC8797244E9BF9007C30AA /* UPAPayPluginDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPAPayPluginDelegate.h; sourceTree = "<group>"; };
+		38EC8799244E9BF9007C30AA /* libUPAPayPlugin.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUPAPayPlugin.a; sourceTree = "<group>"; };
+		38EC879A244E9BF9007C30AA /* PayModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayModel.m; sourceTree = "<group>"; };
+		38EC879C244E9BF9007C30AA /* WeiXinPayTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiXinPayTool.h; sourceTree = "<group>"; };
+		38EC879E244E9BF9007C30AA /* WXUtil.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = WXUtil.mm; sourceTree = "<group>"; };
+		38EC879F244E9BF9007C30AA /* payRequsestHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = payRequsestHandler.h; sourceTree = "<group>"; };
+		38EC87A0244E9BF9007C30AA /* ApiXml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiXml.h; sourceTree = "<group>"; };
+		38EC87A1244E9BF9007C30AA /* ApiXml.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ApiXml.mm; sourceTree = "<group>"; };
+		38EC87A2244E9BF9007C30AA /* payRequsestHandler.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = payRequsestHandler.mm; sourceTree = "<group>"; };
+		38EC87A3244E9BF9007C30AA /* WXUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXUtil.h; sourceTree = "<group>"; };
+		38EC87A5244E9BF9007C30AA /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		38EC87A6244E9BF9007C30AA /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		38EC87A7244E9BF9007C30AA /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		38EC87A8244E9BF9007C30AA /* WeiXinPayTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeiXinPayTool.m; sourceTree = "<group>"; };
+		38EC87AA244E9BF9007C30AA /* AlipayTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlipayTool.h; sourceTree = "<group>"; };
+		38EC87AC244E9BF9007C30AA /* Order.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Order.m; sourceTree = "<group>"; };
+		38EC87AD244E9BF9007C30AA /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		38EC87AE244E9BF9007C30AA /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		38EC87AF244E9BF9007C30AA /* APAuthV2Info.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APAuthV2Info.h; sourceTree = "<group>"; };
+		38EC87B2244E9BF9007C30AA /* openssl_wrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = openssl_wrapper.m; sourceTree = "<group>"; };
+		38EC87B3244E9BF9007C30AA /* NSDataEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataEx.h; sourceTree = "<group>"; };
+		38EC87B4244E9BF9007C30AA /* base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base64.h; sourceTree = "<group>"; };
+		38EC87B6244E9BF9007C30AA /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		38EC87B8244E9BF9007C30AA /* RSADataVerifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSADataVerifier.m; sourceTree = "<group>"; };
+		38EC87B9244E9BF9007C30AA /* RSADataSigner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSADataSigner.h; sourceTree = "<group>"; };
+		38EC87BA244E9BF9007C30AA /* NSDataEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataEx.m; sourceTree = "<group>"; };
+		38EC87BB244E9BF9007C30AA /* openssl_wrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = openssl_wrapper.h; sourceTree = "<group>"; };
+		38EC87BE244E9BF9007C30AA /* base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = base64.m; sourceTree = "<group>"; };
+		38EC87BF244E9BF9007C30AA /* RSADataVerifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSADataVerifier.h; sourceTree = "<group>"; };
+		38EC87C1244E9BF9007C30AA /* RSADataSigner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSADataSigner.m; sourceTree = "<group>"; };
+		38EC87C2244E9BF9007C30AA /* Order.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Order.h; sourceTree = "<group>"; };
+		38EC87C3244E9BF9007C30AA /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
+		38EC87C4244E9BF9007C30AA /* APAuthV2Info.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APAuthV2Info.m; sourceTree = "<group>"; };
+		38EC87C6244E9BF9007C30AA /* pem2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pem2.h; sourceTree = "<group>"; };
+		38EC87C7244E9BF9007C30AA /* pem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pem.h; sourceTree = "<group>"; };
+		38EC87C8244E9BF9007C30AA /* ssl3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl3.h; sourceTree = "<group>"; };
+		38EC87C9244E9BF9007C30AA /* ossl_typ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ossl_typ.h; sourceTree = "<group>"; };
+		38EC87CA244E9BF9007C30AA /* dtls1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dtls1.h; sourceTree = "<group>"; };
+		38EC87CB244E9BF9007C30AA /* err.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = err.h; sourceTree = "<group>"; };
+		38EC87CC244E9BF9007C30AA /* bn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bn.h; sourceTree = "<group>"; };
+		38EC87CD244E9BF9007C30AA /* blowfish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blowfish.h; sourceTree = "<group>"; };
+		38EC87CE244E9BF9007C30AA /* cms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cms.h; sourceTree = "<group>"; };
+		38EC87CF244E9BF9007C30AA /* engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = engine.h; sourceTree = "<group>"; };
+		38EC87D0244E9BF9007C30AA /* conf_api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = conf_api.h; sourceTree = "<group>"; };
+		38EC87D1244E9BF9007C30AA /* x509.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509.h; sourceTree = "<group>"; };
+		38EC87D2244E9BF9007C30AA /* asn1_mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn1_mac.h; sourceTree = "<group>"; };
+		38EC87D3244E9BF9007C30AA /* ui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ui.h; sourceTree = "<group>"; };
+		38EC87D4244E9BF9007C30AA /* kssl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kssl.h; sourceTree = "<group>"; };
+		38EC87D5244E9BF9007C30AA /* sha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha.h; sourceTree = "<group>"; };
+		38EC87D6244E9BF9007C30AA /* symhacks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = symhacks.h; sourceTree = "<group>"; };
+		38EC87D7244E9BF9007C30AA /* asn1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn1.h; sourceTree = "<group>"; };
+		38EC87D8244E9BF9007C30AA /* opensslconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opensslconf.h; sourceTree = "<group>"; };
+		38EC87D9244E9BF9007C30AA /* bio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bio.h; sourceTree = "<group>"; };
+		38EC87DA244E9BF9007C30AA /* rc2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rc2.h; sourceTree = "<group>"; };
+		38EC87DB244E9BF9007C30AA /* dh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dh.h; sourceTree = "<group>"; };
+		38EC87DC244E9BF9007C30AA /* ui_compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ui_compat.h; sourceTree = "<group>"; };
+		38EC87DD244E9BF9007C30AA /* x509v3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509v3.h; sourceTree = "<group>"; };
+		38EC87DE244E9BF9007C30AA /* ssl23.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl23.h; sourceTree = "<group>"; };
+		38EC87DF244E9BF9007C30AA /* conf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = conf.h; sourceTree = "<group>"; };
+		38EC87E0244E9BF9007C30AA /* md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
+		38EC87E1244E9BF9007C30AA /* x509_vfy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509_vfy.h; sourceTree = "<group>"; };
+		38EC87E2244E9BF9007C30AA /* txt_db.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = txt_db.h; sourceTree = "<group>"; };
+		38EC87E3244E9BF9007C30AA /* safestack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = safestack.h; sourceTree = "<group>"; };
+		38EC87E4244E9BF9007C30AA /* ecdsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecdsa.h; sourceTree = "<group>"; };
+		38EC87E5244E9BF9007C30AA /* objects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = objects.h; sourceTree = "<group>"; };
+		38EC87E6244E9BF9007C30AA /* pkcs12.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pkcs12.h; sourceTree = "<group>"; };
+		38EC87E7244E9BF9007C30AA /* crypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto.h; sourceTree = "<group>"; };
+		38EC87E8244E9BF9007C30AA /* opensslv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opensslv.h; sourceTree = "<group>"; };
+		38EC87E9244E9BF9007C30AA /* pkcs7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pkcs7.h; sourceTree = "<group>"; };
+		38EC87EA244E9BF9007C30AA /* obj_mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = obj_mac.h; sourceTree = "<group>"; };
+		38EC87EB244E9BF9007C30AA /* buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = buffer.h; sourceTree = "<group>"; };
+		38EC87EC244E9BF9007C30AA /* ssl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl.h; sourceTree = "<group>"; };
+		38EC87ED244E9BF9007C30AA /* srp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = srp.h; sourceTree = "<group>"; };
+		38EC87EE244E9BF9007C30AA /* camellia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = camellia.h; sourceTree = "<group>"; };
+		38EC87EF244E9BF9007C30AA /* evp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = evp.h; sourceTree = "<group>"; };
+		38EC87F0244E9BF9007C30AA /* e_os2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = e_os2.h; sourceTree = "<group>"; };
+		38EC87F1244E9BF9007C30AA /* md4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md4.h; sourceTree = "<group>"; };
+		38EC87F2244E9BF9007C30AA /* hmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hmac.h; sourceTree = "<group>"; };
+		38EC87F3244E9BF9007C30AA /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
+		38EC87F4244E9BF9007C30AA /* comp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = comp.h; sourceTree = "<group>"; };
+		38EC87F5244E9BF9007C30AA /* cast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cast.h; sourceTree = "<group>"; };
+		38EC87F6244E9BF9007C30AA /* rc4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rc4.h; sourceTree = "<group>"; };
+		38EC87F7244E9BF9007C30AA /* stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
+		38EC87F8244E9BF9007C30AA /* des.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = des.h; sourceTree = "<group>"; };
+		38EC87F9244E9BF9007C30AA /* ocsp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ocsp.h; sourceTree = "<group>"; };
+		38EC87FA244E9BF9007C30AA /* ec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ec.h; sourceTree = "<group>"; };
+		38EC87FB244E9BF9007C30AA /* ecdh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecdh.h; sourceTree = "<group>"; };
+		38EC87FC244E9BF9007C30AA /* rand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rand.h; sourceTree = "<group>"; };
+		38EC87FD244E9BF9007C30AA /* ts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ts.h; sourceTree = "<group>"; };
+		38EC87FE244E9BF9007C30AA /* pqueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pqueue.h; sourceTree = "<group>"; };
+		38EC87FF244E9BF9007C30AA /* dso.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dso.h; sourceTree = "<group>"; };
+		38EC8800244E9BF9007C30AA /* seed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = seed.h; sourceTree = "<group>"; };
+		38EC8801244E9BF9007C30AA /* modes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = modes.h; sourceTree = "<group>"; };
+		38EC8802244E9BF9007C30AA /* ssl2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl2.h; sourceTree = "<group>"; };
+		38EC8803244E9BF9007C30AA /* rsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rsa.h; sourceTree = "<group>"; };
+		38EC8804244E9BF9007C30AA /* krb5_asn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = krb5_asn.h; sourceTree = "<group>"; };
+		38EC8805244E9BF9007C30AA /* des_old.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = des_old.h; sourceTree = "<group>"; };
+		38EC8806244E9BF9007C30AA /* ripemd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ripemd.h; sourceTree = "<group>"; };
+		38EC8807244E9BF9007C30AA /* whrlpool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = whrlpool.h; sourceTree = "<group>"; };
+		38EC8808244E9BF9007C30AA /* tls1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tls1.h; sourceTree = "<group>"; };
+		38EC8809244E9BF9007C30AA /* mdc2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mdc2.h; sourceTree = "<group>"; };
+		38EC880A244E9BF9007C30AA /* dsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dsa.h; sourceTree = "<group>"; };
+		38EC880B244E9BF9007C30AA /* srtp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = srtp.h; sourceTree = "<group>"; };
+		38EC880C244E9BF9007C30AA /* asn1t.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn1t.h; sourceTree = "<group>"; };
+		38EC880D244E9BF9007C30AA /* cmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cmac.h; sourceTree = "<group>"; };
+		38EC880E244E9BF9007C30AA /* ebcdic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ebcdic.h; sourceTree = "<group>"; };
+		38EC880F244E9BF9007C30AA /* idea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = idea.h; sourceTree = "<group>"; };
+		38EC8810244E9BF9007C30AA /* lhash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lhash.h; sourceTree = "<group>"; };
+		38EC8811244E9BF9007C30AA /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		38EC8812244E9BF9007C30AA /* AlipayTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlipayTool.m; sourceTree = "<group>"; };
+		38EC8813244E9BF9007C30AA /* ZDGPayManagerTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDGPayManagerTool.h; sourceTree = "<group>"; };
+		38EC8815244E9BF9007C30AA /* UPPayTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPPayTool.h; sourceTree = "<group>"; };
+		38EC8819244E9BF9007C30AA /* UPPayTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPPayTool.m; sourceTree = "<group>"; };
+		38EC881A244E9BF9007C30AA /* PayModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayModel.h; sourceTree = "<group>"; };
+		38EC8835244E9D4D007C30AA /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		38EC8837244E9D55007C30AA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		38EC8839244E9D60007C30AA /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		38EC883B244E9D6A007C30AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		38EC883D244E9D72007C30AA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		38EC883F244E9D7D007C30AA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		38EC8841244E9D88007C30AA /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		38EC8843244E9D95007C30AA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		38EC8845244E9DA3007C30AA /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		38EC8847244E9DA9007C30AA /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		38EC8849244E9DB1007C30AA /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
+		38EC884B244ED7A5007C30AA /* ZDPay_AddBankModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZDPay_AddBankModel.h; sourceTree = "<group>"; };
+		38EC884C244ED7A5007C30AA /* ZDPay_AddBankModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDPay_AddBankModel.m; sourceTree = "<group>"; };
+		38EEB4AA244D2B480064E4FC /* ZDPaySDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZDPaySDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38EEB4AD244D2B480064E4FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		38EEB4AE244D2B480064E4FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		38EEB4B7244D2B480064E4FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38EEB4B9244D2B4A0064E4FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38EEB4BC244D2B4A0064E4FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		38EEB4BE244D2B4A0064E4FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38EEB4BF244D2B4A0064E4FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		38EEB4C9244D31C70064E4FC /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		38EEB4CA244D31C70064E4FC /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		38EEB4CF244D31E90064E4FC /* ZDPayRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDPayRootViewController.m; sourceTree = "<group>"; };
+		38EEB4D0244D31E90064E4FC /* ZDPayRootModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDPayRootModel.m; sourceTree = "<group>"; };
+		38EEB4D1244D31E90064E4FC /* ZDNaviBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDNaviBarView.h; sourceTree = "<group>"; };
+		38EEB4D2244D31E90064E4FC /* ZDPayRootModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDPayRootModel.h; sourceTree = "<group>"; };
+		38EEB4D3244D31E90064E4FC /* ZDPayRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDPayRootViewController.h; sourceTree = "<group>"; };
+		38EEB4D4244D31E90064E4FC /* ZDNaviBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDNaviBarView.m; sourceTree = "<group>"; };
+		38EEB4D6244D31E90064E4FC /* EncryptAndDecryptTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncryptAndDecryptTool.m; sourceTree = "<group>"; };
+		38EEB4D7244D31E90064E4FC /* CountDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountDown.h; sourceTree = "<group>"; };
+		38EEB4D8244D31E90064E4FC /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		38EEB4D9244D31E90064E4FC /* ZDPayFuncTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDPayFuncTool.h; sourceTree = "<group>"; };
+		38EEB4DA244D31E90064E4FC /* EncryptAndDecryptTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncryptAndDecryptTool.h; sourceTree = "<group>"; };
+		38EEB4DB244D31E90064E4FC /* CountDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountDown.m; sourceTree = "<group>"; };
+		38EEB4DC244D31E90064E4FC /* ZDPayFuncTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDPayFuncTool.m; sourceTree = "<group>"; };
+		38EEB4DD244D31E90064E4FC /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		38EEB4DF244D31E90064E4FC /* ZDPayNetRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDPayNetRequestManager.h; sourceTree = "<group>"; };
+		38EEB4E0244D31E90064E4FC /* ZDPayNetRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDPayNetRequestManager.m; sourceTree = "<group>"; };
+		38EEB4E2244D31E90064E4FC /* ZDPayPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDPayPopView.m; sourceTree = "<group>"; };
+		38EEB4E3244D31E90064E4FC /* ZDPayPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDPayPopView.h; sourceTree = "<group>"; };
+		38EEB4E7244D31E90064E4FC /* icon_zhankai@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_zhankai@2x.png"; sourceTree = "<group>"; };
+		38EEB4E8244D31E90064E4FC /* icon_yingcang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_yingcang.png; sourceTree = "<group>"; };
+		38EEB4E9244D31E90064E4FC /* bohaiyinhang@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bohaiyinhang@3x.png"; sourceTree = "<group>"; };
+		38EEB4EA244D31E90064E4FC /* icon_zhankai@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_zhankai@3x.png"; sourceTree = "<group>"; };
+		38EEB4EB244D31E90064E4FC /* icon_add@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_add@2x.png"; sourceTree = "<group>"; };
+		38EEB4EC244D31E90064E4FC /* icon_add@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_add@3x.png"; sourceTree = "<group>"; };
+		38EEB4ED244D31E90064E4FC /* icon_yingcang@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_yingcang@2x.png"; sourceTree = "<group>"; };
+		38EEB4EE244D31E90064E4FC /* icon_yingcang@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_yingcang@3x.png"; sourceTree = "<group>"; };
+		38EEB4EF244D31E90064E4FC /* icon_zhankai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_zhankai.png; sourceTree = "<group>"; };
+		38EEB4F0244D31E90064E4FC /* icon_add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_add.png; sourceTree = "<group>"; };
+		38EEB4F2244D31E90064E4FC /* alipay-hk@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alipay-hk@2x.png"; sourceTree = "<group>"; };
+		38EEB4F3244D31E90064E4FC /* icon_shop_fill@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_shop_fill@3x.png"; sourceTree = "<group>"; };
+		38EEB4F4244D31E90064E4FC /* icon_dd_fill@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_dd_fill@3x.png"; sourceTree = "<group>"; };
+		38EEB4F5244D31E90064E4FC /* pic_success.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic_success.png; sourceTree = "<group>"; };
+		38EEB4F6244D31E90064E4FC /* icon_map_fill@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_map_fill@3x.png"; sourceTree = "<group>"; };
+		38EEB4F7244D31E90064E4FC /* pic_iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic_iphone.png; sourceTree = "<group>"; };
+		38EEB4F8244D31E90064E4FC /* icon_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_close.png; sourceTree = "<group>"; };
+		38EEB4F9244D31E90064E4FC /* icon_bdsj@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_bdsj@2x.png"; sourceTree = "<group>"; };
+		38EEB4FA244D31E90064E4FC /* icon_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_right.png; sourceTree = "<group>"; };
+		38EEB4FB244D31E90064E4FC /* btn_unch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_unch@2x.png"; sourceTree = "<group>"; };
+		38EEB4FC244D31E90064E4FC /* icon_mine_fill@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_mine_fill@2x.png"; sourceTree = "<group>"; };
+		38EEB4FD244D31E90064E4FC /* icon_dd_fill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_dd_fill.png; sourceTree = "<group>"; };
+		38EEB4FE244D31E90064E4FC /* icon_gr@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_gr@2x.png"; sourceTree = "<group>"; };
+		38EEB4FF244D31E90064E4FC /* icon_gr@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_gr@3x.png"; sourceTree = "<group>"; };
+		38EEB500244D31E90064E4FC /* btn_unch@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_unch@3x.png"; sourceTree = "<group>"; };
+		38EEB501244D31E90064E4FC /* icon_jiaoyimingxi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_jiaoyimingxi.png; sourceTree = "<group>"; };
+		38EEB502244D31E90064E4FC /* icon_mine_fill@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_mine_fill@3x.png"; sourceTree = "<group>"; };
+		38EEB503244D31E90064E4FC /* icon_bdsj@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_bdsj@3x.png"; sourceTree = "<group>"; };
+		38EEB504244D31E90064E4FC /* icon_map_fill@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_map_fill@2x.png"; sourceTree = "<group>"; };
+		38EEB505244D31E90064E4FC /* btn_choose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_choose.png; sourceTree = "<group>"; };
+		38EEB506244D31E90064E4FC /* btn_xieyi_unsel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_xieyi_unsel.png; sourceTree = "<group>"; };
+		38EEB507244D31E90064E4FC /* icon_dd_fill@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_dd_fill@2x.png"; sourceTree = "<group>"; };
+		38EEB508244D31E90064E4FC /* icon_shop_fill@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_shop_fill@2x.png"; sourceTree = "<group>"; };
+		38EEB509244D31E90064E4FC /* alipay-hk@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alipay-hk@3x.png"; sourceTree = "<group>"; };
+		38EEB50A244D31E90064E4FC /* icon_wallet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_wallet.png; sourceTree = "<group>"; };
+		38EEB50B244D31E90064E4FC /* icon_jiaoyimingxi@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_jiaoyimingxi@3x.png"; sourceTree = "<group>"; };
+		38EEB50C244D31E90064E4FC /* pic_type.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic_type.png; sourceTree = "<group>"; };
+		38EEB50D244D31E90064E4FC /* icon_dd@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_dd@3x.png"; sourceTree = "<group>"; };
+		38EEB50E244D31E90064E4FC /* icon_dd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_dd.png; sourceTree = "<group>"; };
+		38EEB50F244D31E90064E4FC /* icon_sm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_sm.png; sourceTree = "<group>"; };
+		38EEB510244D31E90064E4FC /* card_yecz@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card_yecz@3x.png"; sourceTree = "<group>"; };
+		38EEB511244D31E90064E4FC /* card_yajincz@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card_yajincz@2x.png"; sourceTree = "<group>"; };
+		38EEB512244D31E90064E4FC /* card_yecz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card_yecz.png; sourceTree = "<group>"; };
+		38EEB513244D31E90064E4FC /* icon_qiehuan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_qiehuan.png; sourceTree = "<group>"; };
+		38EEB514244D31E90064E4FC /* alipay-hk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alipay-hk.png"; sourceTree = "<group>"; };
+		38EEB515244D31E90064E4FC /* icon_dingdan@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_dingdan@3x.png"; sourceTree = "<group>"; };
+		38EEB516244D31E90064E4FC /* icon_dingdan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_dingdan.png; sourceTree = "<group>"; };
+		38EEB517244D31E90064E4FC /* icon_dingdan@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_dingdan@2x.png"; sourceTree = "<group>"; };
+		38EEB518244D31E90064E4FC /* card_yecz@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card_yecz@2x.png"; sourceTree = "<group>"; };
+		38EEB519244D31E90064E4FC /* card_yajincz@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card_yajincz@3x.png"; sourceTree = "<group>"; };
+		38EEB51A244D31E90064E4FC /* icon_dd@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_dd@2x.png"; sourceTree = "<group>"; };
+		38EEB51B244D31E90064E4FC /* icon_hlep.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_hlep.png; sourceTree = "<group>"; };
+		38EEB51C244D31E90064E4FC /* icon_jiaoyimingxi@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_jiaoyimingxi@2x.png"; sourceTree = "<group>"; };
+		38EEB51D244D31E90064E4FC /* icon_signout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_signout.png; sourceTree = "<group>"; };
+		38EEB51E244D31E90064E4FC /* pic_type@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pic_type@3x.png"; sourceTree = "<group>"; };
+		38EEB51F244D31E90064E4FC /* icon_guanyu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_guanyu@2x.png"; sourceTree = "<group>"; };
+		38EEB520244D31E90064E4FC /* pic_iphone@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pic_iphone@3x.png"; sourceTree = "<group>"; };
+		38EEB521244D31E90064E4FC /* btn_xieyi_selete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_xieyi_selete.png; sourceTree = "<group>"; };
+		38EEB522244D31E90064E4FC /* icon_mine_fill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_mine_fill.png; sourceTree = "<group>"; };
+		38EEB523244D31E90064E4FC /* icon_map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_map.png; sourceTree = "<group>"; };
+		38EEB524244D31E90064E4FC /* icon_guzhang@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_guzhang@3x.png"; sourceTree = "<group>"; };
+		38EEB525244D31E90064E4FC /* icon_right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_right@2x.png"; sourceTree = "<group>"; };
+		38EEB526244D31E90064E4FC /* icon_hlep_fill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_hlep_fill.png; sourceTree = "<group>"; };
+		38EEB527244D31E90064E4FC /* pic_success@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pic_success@3x.png"; sourceTree = "<group>"; };
+		38EEB528244D31E90064E4FC /* btn_xieyi_selete@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_xieyi_selete@3x.png"; sourceTree = "<group>"; };
+		38EEB529244D31E90064E4FC /* icon_hlep_fill@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_hlep_fill@3x.png"; sourceTree = "<group>"; };
+		38EEB52A244D31E90064E4FC /* icon_hlep@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_hlep@3x.png"; sourceTree = "<group>"; };
+		38EEB52B244D31E90064E4FC /* pic_android@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pic_android@2x.png"; sourceTree = "<group>"; };
+		38EEB52C244D31E90064E4FC /* icon_wallet@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_wallet@2x.png"; sourceTree = "<group>"; };
+		38EEB52D244D31E90064E4FC /* icon_qiehuan@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_qiehuan@3x.png"; sourceTree = "<group>"; };
+		38EEB52E244D31E90064E4FC /* icon_qiehuan@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_qiehuan@2x.png"; sourceTree = "<group>"; };
+		38EEB52F244D31E90064E4FC /* icon_wallet@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_wallet@3x.png"; sourceTree = "<group>"; };
+		38EEB530244D31E90064E4FC /* pic_android@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pic_android@3x.png"; sourceTree = "<group>"; };
+		38EEB531244D31E90064E4FC /* icon_map_fill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_map_fill.png; sourceTree = "<group>"; };
+		38EEB532244D31E90064E4FC /* icon_hlep@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_hlep@2x.png"; sourceTree = "<group>"; };
+		38EEB533244D31E90064E4FC /* btn_xieyi_selete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_xieyi_selete@2x.png"; sourceTree = "<group>"; };
+		38EEB534244D31E90064E4FC /* icon_hlep_fill@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_hlep_fill@2x.png"; sourceTree = "<group>"; };
+		38EEB535244D31E90064E4FC /* pic_success@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pic_success@2x.png"; sourceTree = "<group>"; };
+		38EEB536244D31E90064E4FC /* icon_shop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_shop.png; sourceTree = "<group>"; };
+		38EEB537244D31E90064E4FC /* icon_right@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_right@3x.png"; sourceTree = "<group>"; };
+		38EEB538244D31E90064E4FC /* icon_gr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_gr.png; sourceTree = "<group>"; };
+		38EEB539244D31E90064E4FC /* weixin_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weixin_icon.png; sourceTree = "<group>"; };
+		38EEB53A244D31E90064E4FC /* icon_guzhang@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_guzhang@2x.png"; sourceTree = "<group>"; };
+		38EEB53B244D31E90064E4FC /* btn_unch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_unch.png; sourceTree = "<group>"; };
+		38EEB53C244D31E90064E4FC /* icon_guanyu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_guanyu.png; sourceTree = "<group>"; };
+		38EEB53D244D31E90064E4FC /* pic_iphone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pic_iphone@2x.png"; sourceTree = "<group>"; };
+		38EEB53E244D31E90064E4FC /* pic_type@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pic_type@2x.png"; sourceTree = "<group>"; };
+		38EEB53F244D31E90064E4FC /* icon_guanyu@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_guanyu@3x.png"; sourceTree = "<group>"; };
+		38EEB540244D31E90064E4FC /* btn_choose@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_choose@3x.png"; sourceTree = "<group>"; };
+		38EEB541244D31E90064E4FC /* icon_signout@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_signout@2x.png"; sourceTree = "<group>"; };
+		38EEB542244D31E90064E4FC /* card_yajincz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card_yajincz.png; sourceTree = "<group>"; };
+		38EEB543244D31E90064E4FC /* icon_guzhang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_guzhang.png; sourceTree = "<group>"; };
+		38EEB544244D31E90064E4FC /* icon_map@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_map@2x.png"; sourceTree = "<group>"; };
+		38EEB545244D31E90064E4FC /* icon_close@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_close@3x.png"; sourceTree = "<group>"; };
+		38EEB546244D31E90064E4FC /* pic_android.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic_android.png; sourceTree = "<group>"; };
+		38EEB547244D31E90064E4FC /* btn_xieyi_unsel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_xieyi_unsel@2x.png"; sourceTree = "<group>"; };
+		38EEB548244D31E90064E4FC /* pic_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic_01.png; sourceTree = "<group>"; };
+		38EEB549244D31E90064E4FC /* pic_01@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pic_01@3x.png"; sourceTree = "<group>"; };
+		38EEB54A244D31E90064E4FC /* icon_shop@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_shop@3x.png"; sourceTree = "<group>"; };
+		38EEB54B244D31E90064E4FC /* weixin_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weixin_icon@2x.png"; sourceTree = "<group>"; };
+		38EEB54C244D31E90064E4FC /* icon_sm@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_sm@3x.png"; sourceTree = "<group>"; };
+		38EEB54D244D31E90064E4FC /* icon_sm@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_sm@2x.png"; sourceTree = "<group>"; };
+		38EEB54E244D31E90064E4FC /* weixin_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weixin_icon@3x.png"; sourceTree = "<group>"; };
+		38EEB54F244D31E90064E4FC /* icon_bdsj.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_bdsj.png; sourceTree = "<group>"; };
+		38EEB550244D31E90064E4FC /* pic_01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pic_01@2x.png"; sourceTree = "<group>"; };
+		38EEB551244D31E90064E4FC /* icon_shop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_shop@2x.png"; sourceTree = "<group>"; };
+		38EEB552244D31E90064E4FC /* btn_xieyi_unsel@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_xieyi_unsel@3x.png"; sourceTree = "<group>"; };
+		38EEB553244D31E90064E4FC /* icon_close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_close@2x.png"; sourceTree = "<group>"; };
+		38EEB554244D31E90064E4FC /* icon_map@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_map@3x.png"; sourceTree = "<group>"; };
+		38EEB555244D31E90064E4FC /* icon_shop_fill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_shop_fill.png; sourceTree = "<group>"; };
+		38EEB556244D31E90064E4FC /* btn_choose@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_choose@2x.png"; sourceTree = "<group>"; };
+		38EEB557244D31E90064E4FC /* icon_signout@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_signout@3x.png"; sourceTree = "<group>"; };
+		38EEB559244D31E90064E4FC /* ZDPay_OrderSureModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDPay_OrderSureModel.m; sourceTree = "<group>"; };
+		38EEB55A244D31E90064E4FC /* ZDPay_OrderSurePayListRespModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDPay_OrderSurePayListRespModel.m; sourceTree = "<group>"; };
+		38EEB55B244D31E90064E4FC /* ZDPay_OrderSureRespModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDPay_OrderSureRespModel.h; sourceTree = "<group>"; };
+		38EEB55C244D31E90064E4FC /* ZDPay_OrderSureBankListRespModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDPay_OrderSureBankListRespModel.m; sourceTree = "<group>"; };
+		38EEB55D244D31E90064E4FC /* ZDPay_OrderSureModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDPay_OrderSureModel.h; sourceTree = "<group>"; };
+		38EEB55E244D31E90064E4FC /* ZDPay_OrderSurePayListRespModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDPay_OrderSurePayListRespModel.h; sourceTree = "<group>"; };
+		38EEB55F244D31E90064E4FC /* ZDPay_OrderSureRespModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDPay_OrderSureRespModel.m; sourceTree = "<group>"; };
+		38EEB560244D31E90064E4FC /* ZDPay_OrderSureBankListRespModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDPay_OrderSureBankListRespModel.h; sourceTree = "<group>"; };
+		38EEB562244D31E90064E4FC /* ZDPay_SecurityVerificationSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDPay_SecurityVerificationSecondViewController.h; sourceTree = "<group>"; };
+		38EEB563244D31E90064E4FC /* ZDPay_OrderSureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDPay_OrderSureViewController.h; sourceTree = "<group>"; };
+		38EEB564244D31E90064E4FC /* ZDPay_AddBankCardSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDPay_AddBankCardSecondViewController.m; sourceTree = "<group>"; };
+		38EEB565244D31E90064E4FC /* ZDPay_MyWalletViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDPay_MyWalletViewController.h; sourceTree = "<group>"; };
+		38EEB566244D31E90064E4FC /* ZDPay_SafetyCertificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDPay_SafetyCertificationViewController.h; sourceTree = "<group>"; };
+		38EEB567244D31E90064E4FC /* ZDPay_AddBankCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDPay_AddBankCardViewController.h; sourceTree = "<group>"; };
+		38EEB568244D31E90064E4FC /* ZDPay_SecurityVerificationSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDPay_SecurityVerificationSecondViewController.m; sourceTree = "<group>"; };
+		38EEB569244D31E90064E4FC /* ZDPay_MyWalletViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDPay_MyWalletViewController.m; sourceTree = "<group>"; };
+		38EEB56A244D31E90064E4FC /* ZDPay_AddBankCardSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDPay_AddBankCardSecondViewController.h; sourceTree = "<group>"; };
+		38EEB56B244D31E90064E4FC /* ZDPay_OrderSureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDPay_OrderSureViewController.m; sourceTree = "<group>"; };
+		38EEB56C244D31E90064E4FC /* ZDPay_AddBankCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDPay_AddBankCardViewController.m; sourceTree = "<group>"; };
+		38EEB56D244D31E90064E4FC /* ZDPay_SafetyCertificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDPay_SafetyCertificationViewController.m; sourceTree = "<group>"; };
+		38EEB56F244D31E90064E4FC /* ZDPay_MywalletTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDPay_MywalletTableViewCell.h; sourceTree = "<group>"; };
+		38EEB570244D31E90064E4FC /* ZDPay_BankCardSecondTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDPay_BankCardSecondTableViewCell.m; sourceTree = "<group>"; };
+		38EEB571244D31E90064E4FC /* ZDPay_OrderSureHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDPay_OrderSureHeaderView.h; sourceTree = "<group>"; };
+		38EEB572244D31E90064E4FC /* ZDPay_OrderSureTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDPay_OrderSureTableViewCell.m; sourceTree = "<group>"; };
+		38EEB573244D31E90064E4FC /* ZDPay_OrderSureFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDPay_OrderSureFooterView.m; sourceTree = "<group>"; };
+		38EEB574244D31E90064E4FC /* ZDPay_BankCardSecondTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDPay_BankCardSecondTableViewCell.h; sourceTree = "<group>"; };
+		38EEB575244D31E90064E4FC /* ZDPay_MywalletTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDPay_MywalletTableViewCell.m; sourceTree = "<group>"; };
+		38EEB576244D31E90064E4FC /* ZDPay_OrderSureHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDPay_OrderSureHeaderView.m; sourceTree = "<group>"; };
+		38EEB577244D31E90064E4FC /* ZDPay_OrderSureFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDPay_OrderSureFooterView.h; sourceTree = "<group>"; };
+		38EEB578244D31E90064E4FC /* ZDPay_OrderSureTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDPay_OrderSureTableViewCell.h; sourceTree = "<group>"; };
+		38EEB64C244D38620064E4FC /* MJPropertyKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyKey.h; sourceTree = "<group>"; };
+		38EEB64D244D38620064E4FC /* NSObject+MJClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJClass.h"; sourceTree = "<group>"; };
+		38EEB64E244D38620064E4FC /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
+		38EEB64F244D38620064E4FC /* MJPropertyType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyType.m; sourceTree = "<group>"; };
+		38EEB650244D38620064E4FC /* NSObject+MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		38EEB651244D38620064E4FC /* MJExtensionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConst.h; sourceTree = "<group>"; };
+		38EEB652244D38620064E4FC /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		38EEB653244D38620064E4FC /* MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJProperty.m; sourceTree = "<group>"; };
+		38EEB654244D38620064E4FC /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
+		38EEB655244D38620064E4FC /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		38EEB656244D38620064E4FC /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
+		38EEB657244D38620064E4FC /* MJExtensionConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConst.m; sourceTree = "<group>"; };
+		38EEB658244D38620064E4FC /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		38EEB659244D38620064E4FC /* MJPropertyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyType.h; sourceTree = "<group>"; };
+		38EEB65A244D38620064E4FC /* NSObject+MJClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJClass.m"; sourceTree = "<group>"; };
+		38EEB65B244D38620064E4FC /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
+		38EEB65C244D38620064E4FC /* MJPropertyKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyKey.m; sourceTree = "<group>"; };
+		38EEB65D244D38620064E4FC /* MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJProperty.h; sourceTree = "<group>"; };
+		38EEB65E244D38620064E4FC /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		38EEB65F244D38620064E4FC /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		38EEB660244D38620064E4FC /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
+		38EEB74E244D39080064E4FC /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		38EEB74F244D39080064E4FC /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		38EEB77B244D3DC90064E4FC /* class_navbar_icon_return_nor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = class_navbar_icon_return_nor.png; sourceTree = "<group>"; };
+		38EEB77C244D3DC90064E4FC /* class_navbar_icon_return_nor@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "class_navbar_icon_return_nor@3x.png"; sourceTree = "<group>"; };
+		38EEB77D244D3DC90064E4FC /* class_navbar_icon_return_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "class_navbar_icon_return_nor@2x.png"; sourceTree = "<group>"; };
+		38EEB787244D90650064E4FC /* ZDPay_OrderBankListTokenModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZDPay_OrderBankListTokenModel.h; sourceTree = "<group>"; };
+		38EEB788244D90650064E4FC /* ZDPay_OrderBankListTokenModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDPay_OrderBankListTokenModel.m; sourceTree = "<group>"; };
+		38EEB78A244DA2B50064E4FC /* ZDPay_AddBankCardReqModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZDPay_AddBankCardReqModel.h; sourceTree = "<group>"; };
+		38EEB78B244DA2B50064E4FC /* ZDPay_AddBankCardReqModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDPay_AddBankCardReqModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38EEB4A7244D2B480064E4FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E8D6A6244FECDD00D30FE9 /* WebKit.framework in Frameworks */,
+				38EC884A244E9DB1007C30AA /* PassKit.framework in Frameworks */,
+				38EC8848244E9DA9007C30AA /* CFNetwork.framework in Frameworks */,
+				38EC8846244E9DA3007C30AA /* libz.tbd in Frameworks */,
+				38EC8844244E9D95007C30AA /* QuartzCore.framework in Frameworks */,
+				38EC8842244E9D88007C30AA /* CoreText.framework in Frameworks */,
+				38EC8840244E9D7D007C30AA /* CoreGraphics.framework in Frameworks */,
+				38EC883E244E9D72007C30AA /* UIKit.framework in Frameworks */,
+				38EC883C244E9D6A007C30AA /* Foundation.framework in Frameworks */,
+				38EC883A244E9D60007C30AA /* CoreTelephony.framework in Frameworks */,
+				38EC8838244E9D55007C30AA /* SystemConfiguration.framework in Frameworks */,
+				38EC8836244E9D4D007C30AA /* libsqlite3.0.tbd in Frameworks */,
+				38EC882E244E9BF9007C30AA /* libssl.a in Frameworks */,
+				38EC8830244E9BF9007C30AA /* AlipaySDK.framework in Frameworks */,
+				38568781246FEA6C009519F7 /* libPaymentControl.a in Frameworks */,
+				38EC8821244E9BF9007C30AA /* libWeChatSDK.a in Frameworks */,
+				38EC881C244E9BF9007C30AA /* libUPAPayPlugin.a in Frameworks */,
+				38EC8824244E9BF9007C30AA /* libcrypto.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38EC8790244E9BF9007C30AA /* ZDAggregatePayLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				38EC881A244E9BF9007C30AA /* PayModel.h */,
+				38EC879A244E9BF9007C30AA /* PayModel.m */,
+				38EC8813244E9BF9007C30AA /* ZDGPayManagerTool.h */,
+				38EC8791244E9BF9007C30AA /* ZDGPayManagerTool.m */,
+				38EC8792244E9BF9007C30AA /* ZDPayFrameWork.h */,
+				38EC8793244E9BF9007C30AA /* 苹果支付 */,
+				38EC879B244E9BF9007C30AA /* 微信支付 */,
+				38EC87A9244E9BF9007C30AA /* 支付宝支付 */,
+				38EC8814244E9BF9007C30AA /* 银联支付 */,
+			);
+			path = ZDAggregatePayLibrary;
+			sourceTree = "<group>";
+		};
+		38EC8793244E9BF9007C30AA /* 苹果支付 */ = {
+			isa = PBXGroup;
+			children = (
+				38EC8794244E9BF9007C30AA /* applePaySDK */,
+			);
+			path = "苹果支付";
+			sourceTree = "<group>";
+		};
+		38EC8794244E9BF9007C30AA /* applePaySDK */ = {
+			isa = PBXGroup;
+			children = (
+				38EC8795244E9BF9007C30AA /* inc */,
+				38EC8798244E9BF9007C30AA /* libs */,
+			);
+			path = applePaySDK;
+			sourceTree = "<group>";
+		};
+		38EC8795244E9BF9007C30AA /* inc */ = {
+			isa = PBXGroup;
+			children = (
+				38EC8796244E9BF9007C30AA /* UPAPayPlugin.h */,
+				38EC8797244E9BF9007C30AA /* UPAPayPluginDelegate.h */,
+			);
+			path = inc;
+			sourceTree = "<group>";
+		};
+		38EC8798244E9BF9007C30AA /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				38EC8799244E9BF9007C30AA /* libUPAPayPlugin.a */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		38EC879B244E9BF9007C30AA /* 微信支付 */ = {
+			isa = PBXGroup;
+			children = (
+				38EC879C244E9BF9007C30AA /* WeiXinPayTool.h */,
+				38EC87A8244E9BF9007C30AA /* WeiXinPayTool.m */,
+				38EC879D244E9BF9007C30AA /* lib */,
+				38EC87A4244E9BF9007C30AA /* SDKExport */,
+			);
+			path = "微信支付";
+			sourceTree = "<group>";
+		};
+		38EC879D244E9BF9007C30AA /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				38EC879F244E9BF9007C30AA /* payRequsestHandler.h */,
+				38EC87A2244E9BF9007C30AA /* payRequsestHandler.mm */,
+				38EC87A0244E9BF9007C30AA /* ApiXml.h */,
+				38EC87A1244E9BF9007C30AA /* ApiXml.mm */,
+				38EC87A3244E9BF9007C30AA /* WXUtil.h */,
+				38EC879E244E9BF9007C30AA /* WXUtil.mm */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		38EC87A4244E9BF9007C30AA /* SDKExport */ = {
+			isa = PBXGroup;
+			children = (
+				38EC87A5244E9BF9007C30AA /* WXApi.h */,
+				38EC87A6244E9BF9007C30AA /* WXApiObject.h */,
+				38EC87A7244E9BF9007C30AA /* libWeChatSDK.a */,
+			);
+			path = SDKExport;
+			sourceTree = "<group>";
+		};
+		38EC87A9244E9BF9007C30AA /* 支付宝支付 */ = {
+			isa = PBXGroup;
+			children = (
+				38C85143245523CF00F4D78F /* AliSDKDemo-Prefix.pch */,
+				38EC87AA244E9BF9007C30AA /* AlipayTool.h */,
+				38EC8812244E9BF9007C30AA /* AlipayTool.m */,
+				38EC87AB244E9BF9007C30AA /* AliPay */,
+			);
+			path = "支付宝支付";
+			sourceTree = "<group>";
+		};
+		38EC87AB244E9BF9007C30AA /* AliPay */ = {
+			isa = PBXGroup;
+			children = (
+				38EC87AF244E9BF9007C30AA /* APAuthV2Info.h */,
+				38EC87C4244E9BF9007C30AA /* APAuthV2Info.m */,
+				38EC87C2244E9BF9007C30AA /* Order.h */,
+				38EC87AC244E9BF9007C30AA /* Order.m */,
+				38EC87AD244E9BF9007C30AA /* libcrypto.a */,
+				38EC87C3244E9BF9007C30AA /* libssl.a */,
+				38EC87AE244E9BF9007C30AA /* AlipaySDK.bundle */,
+				38EC87B0244E9BF9007C30AA /* Util */,
+				38EC87C5244E9BF9007C30AA /* openssl */,
+				38EC8811244E9BF9007C30AA /* AlipaySDK.framework */,
+			);
+			path = AliPay;
+			sourceTree = "<group>";
+		};
+		38EC87B0244E9BF9007C30AA /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				38EC87B2244E9BF9007C30AA /* openssl_wrapper.m */,
+				38EC87B3244E9BF9007C30AA /* NSDataEx.h */,
+				38EC87B4244E9BF9007C30AA /* base64.h */,
+				38EC87B6244E9BF9007C30AA /* config.h */,
+				38EC87B8244E9BF9007C30AA /* RSADataVerifier.m */,
+				38EC87B9244E9BF9007C30AA /* RSADataSigner.h */,
+				38EC87BA244E9BF9007C30AA /* NSDataEx.m */,
+				38EC87BB244E9BF9007C30AA /* openssl_wrapper.h */,
+				38EC87BE244E9BF9007C30AA /* base64.m */,
+				38EC87BF244E9BF9007C30AA /* RSADataVerifier.h */,
+				38EC87C1244E9BF9007C30AA /* RSADataSigner.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		38EC87C5244E9BF9007C30AA /* openssl */ = {
+			isa = PBXGroup;
+			children = (
+				38EC87C6244E9BF9007C30AA /* pem2.h */,
+				38EC87C7244E9BF9007C30AA /* pem.h */,
+				38EC87C8244E9BF9007C30AA /* ssl3.h */,
+				38EC87C9244E9BF9007C30AA /* ossl_typ.h */,
+				38EC87CA244E9BF9007C30AA /* dtls1.h */,
+				38EC87CB244E9BF9007C30AA /* err.h */,
+				38EC87CC244E9BF9007C30AA /* bn.h */,
+				38EC87CD244E9BF9007C30AA /* blowfish.h */,
+				38EC87CE244E9BF9007C30AA /* cms.h */,
+				38EC87CF244E9BF9007C30AA /* engine.h */,
+				38EC87D0244E9BF9007C30AA /* conf_api.h */,
+				38EC87D1244E9BF9007C30AA /* x509.h */,
+				38EC87D2244E9BF9007C30AA /* asn1_mac.h */,
+				38EC87D3244E9BF9007C30AA /* ui.h */,
+				38EC87D4244E9BF9007C30AA /* kssl.h */,
+				38EC87D5244E9BF9007C30AA /* sha.h */,
+				38EC87D6244E9BF9007C30AA /* symhacks.h */,
+				38EC87D7244E9BF9007C30AA /* asn1.h */,
+				38EC87D8244E9BF9007C30AA /* opensslconf.h */,
+				38EC87D9244E9BF9007C30AA /* bio.h */,
+				38EC87DA244E9BF9007C30AA /* rc2.h */,
+				38EC87DB244E9BF9007C30AA /* dh.h */,
+				38EC87DC244E9BF9007C30AA /* ui_compat.h */,
+				38EC87DD244E9BF9007C30AA /* x509v3.h */,
+				38EC87DE244E9BF9007C30AA /* ssl23.h */,
+				38EC87DF244E9BF9007C30AA /* conf.h */,
+				38EC87E0244E9BF9007C30AA /* md5.h */,
+				38EC87E1244E9BF9007C30AA /* x509_vfy.h */,
+				38EC87E2244E9BF9007C30AA /* txt_db.h */,
+				38EC87E3244E9BF9007C30AA /* safestack.h */,
+				38EC87E4244E9BF9007C30AA /* ecdsa.h */,
+				38EC87E5244E9BF9007C30AA /* objects.h */,
+				38EC87E6244E9BF9007C30AA /* pkcs12.h */,
+				38EC87E7244E9BF9007C30AA /* crypto.h */,
+				38EC87E8244E9BF9007C30AA /* opensslv.h */,
+				38EC87E9244E9BF9007C30AA /* pkcs7.h */,
+				38EC87EA244E9BF9007C30AA /* obj_mac.h */,
+				38EC87EB244E9BF9007C30AA /* buffer.h */,
+				38EC87EC244E9BF9007C30AA /* ssl.h */,
+				38EC87ED244E9BF9007C30AA /* srp.h */,
+				38EC87EE244E9BF9007C30AA /* camellia.h */,
+				38EC87EF244E9BF9007C30AA /* evp.h */,
+				38EC87F0244E9BF9007C30AA /* e_os2.h */,
+				38EC87F1244E9BF9007C30AA /* md4.h */,
+				38EC87F2244E9BF9007C30AA /* hmac.h */,
+				38EC87F3244E9BF9007C30AA /* aes.h */,
+				38EC87F4244E9BF9007C30AA /* comp.h */,
+				38EC87F5244E9BF9007C30AA /* cast.h */,
+				38EC87F6244E9BF9007C30AA /* rc4.h */,
+				38EC87F7244E9BF9007C30AA /* stack.h */,
+				38EC87F8244E9BF9007C30AA /* des.h */,
+				38EC87F9244E9BF9007C30AA /* ocsp.h */,
+				38EC87FA244E9BF9007C30AA /* ec.h */,
+				38EC87FB244E9BF9007C30AA /* ecdh.h */,
+				38EC87FC244E9BF9007C30AA /* rand.h */,
+				38EC87FD244E9BF9007C30AA /* ts.h */,
+				38EC87FE244E9BF9007C30AA /* pqueue.h */,
+				38EC87FF244E9BF9007C30AA /* dso.h */,
+				38EC8800244E9BF9007C30AA /* seed.h */,
+				38EC8801244E9BF9007C30AA /* modes.h */,
+				38EC8802244E9BF9007C30AA /* ssl2.h */,
+				38EC8803244E9BF9007C30AA /* rsa.h */,
+				38EC8804244E9BF9007C30AA /* krb5_asn.h */,
+				38EC8805244E9BF9007C30AA /* des_old.h */,
+				38EC8806244E9BF9007C30AA /* ripemd.h */,
+				38EC8807244E9BF9007C30AA /* whrlpool.h */,
+				38EC8808244E9BF9007C30AA /* tls1.h */,
+				38EC8809244E9BF9007C30AA /* mdc2.h */,
+				38EC880A244E9BF9007C30AA /* dsa.h */,
+				38EC880B244E9BF9007C30AA /* srtp.h */,
+				38EC880C244E9BF9007C30AA /* asn1t.h */,
+				38EC880D244E9BF9007C30AA /* cmac.h */,
+				38EC880E244E9BF9007C30AA /* ebcdic.h */,
+				38EC880F244E9BF9007C30AA /* idea.h */,
+				38EC8810244E9BF9007C30AA /* lhash.h */,
+			);
+			path = openssl;
+			sourceTree = "<group>";
+		};
+		38EC8814244E9BF9007C30AA /* 银联支付 */ = {
+			isa = PBXGroup;
+			children = (
+				38EC8815244E9BF9007C30AA /* UPPayTool.h */,
+				38EC8819244E9BF9007C30AA /* UPPayTool.m */,
+				38EC8816244E9BF9007C30AA /* PayLib */,
+			);
+			path = "银联支付";
+			sourceTree = "<group>";
+		};
+		38EC8816244E9BF9007C30AA /* PayLib */ = {
+			isa = PBXGroup;
+			children = (
+				3856877F246FEA6C009519F7 /* libPaymentControl.a */,
+				38568780246FEA6C009519F7 /* UPPaymentControl.h */,
+			);
+			path = PayLib;
+			sourceTree = "<group>";
+		};
+		38EC8834244E9D4D007C30AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38E8D6A5244FECDD00D30FE9 /* WebKit.framework */,
+				38EC8849244E9DB1007C30AA /* PassKit.framework */,
+				38EC8847244E9DA9007C30AA /* CFNetwork.framework */,
+				38EC8845244E9DA3007C30AA /* libz.tbd */,
+				38EC8843244E9D95007C30AA /* QuartzCore.framework */,
+				38EC8841244E9D88007C30AA /* CoreText.framework */,
+				38EC883F244E9D7D007C30AA /* CoreGraphics.framework */,
+				38EC883D244E9D72007C30AA /* UIKit.framework */,
+				38EC883B244E9D6A007C30AA /* Foundation.framework */,
+				38EC8839244E9D60007C30AA /* CoreTelephony.framework */,
+				38EC8837244E9D55007C30AA /* SystemConfiguration.framework */,
+				38EC8835244E9D4D007C30AA /* libsqlite3.0.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		38EEB4A1244D2B480064E4FC = {
+			isa = PBXGroup;
+			children = (
+				38EEB4AC244D2B480064E4FC /* ZDPaySDK */,
+				38EEB4AB244D2B480064E4FC /* Products */,
+				38EC8834244E9D4D007C30AA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		38EEB4AB244D2B480064E4FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38EEB4AA244D2B480064E4FC /* ZDPaySDK.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38EEB4AC244D2B480064E4FC /* ZDPaySDK */ = {
+			isa = PBXGroup;
+			children = (
+				38EBCF592459810900FE1D30 /* ZDPaySDKDebug.entitlements */,
+				38E9F0AF24566AA100935A3B /* ZDPaySDK.entitlements */,
+				38EEB61D244D38280064E4FC /* ThridLibrary */,
+				38EEB4CC244D31E90064E4FC /* ZDPaySDK */,
+				38EEB4AD244D2B480064E4FC /* AppDelegate.h */,
+				38EEB4AE244D2B480064E4FC /* AppDelegate.m */,
+				38EEB4CA244D31C70064E4FC /* ViewController.h */,
+				38EEB4C9244D31C70064E4FC /* ViewController.m */,
+				38EEB4B6244D2B480064E4FC /* Main.storyboard */,
+				38EEB4B9244D2B4A0064E4FC /* Assets.xcassets */,
+				38EEB4BB244D2B4A0064E4FC /* LaunchScreen.storyboard */,
+				38EEB4BE244D2B4A0064E4FC /* Info.plist */,
+				38EEB4BF244D2B4A0064E4FC /* main.m */,
+			);
+			path = ZDPaySDK;
+			sourceTree = "<group>";
+		};
+		38EEB4CC244D31E90064E4FC /* ZDPaySDK */ = {
+			isa = PBXGroup;
+			children = (
+				38EEB563244D31E90064E4FC /* ZDPay_OrderSureViewController.h */,
+				38EEB55D244D31E90064E4FC /* ZDPay_OrderSureModel.h */,
+				38EEB565244D31E90064E4FC /* ZDPay_MyWalletViewController.h */,
+				38EC8790244E9BF9007C30AA /* ZDAggregatePayLibrary */,
+				38EEB4CD244D31E90064E4FC /* Other */,
+				38EEB4E4244D31E90064E4FC /* UI_ZDPay */,
+			);
+			path = ZDPaySDK;
+			sourceTree = "<group>";
+		};
+		38EEB4CD244D31E90064E4FC /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				38EEB4CE244D31E90064E4FC /* Basics */,
+				38EEB4D5244D31E90064E4FC /* Util */,
+				38EEB4DE244D31E90064E4FC /* NetRequest */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		38EEB4CE244D31E90064E4FC /* Basics */ = {
+			isa = PBXGroup;
+			children = (
+				38EEB4D3244D31E90064E4FC /* ZDPayRootViewController.h */,
+				38EEB4CF244D31E90064E4FC /* ZDPayRootViewController.m */,
+				38EEB4D2244D31E90064E4FC /* ZDPayRootModel.h */,
+				38EEB4D0244D31E90064E4FC /* ZDPayRootModel.m */,
+				38EEB4D1244D31E90064E4FC /* ZDNaviBarView.h */,
+				38EEB4D4244D31E90064E4FC /* ZDNaviBarView.m */,
+			);
+			path = Basics;
+			sourceTree = "<group>";
+		};
+		38EEB4D5244D31E90064E4FC /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				38EEB4E3244D31E90064E4FC /* ZDPayPopView.h */,
+				38EEB4E2244D31E90064E4FC /* ZDPayPopView.m */,
+				38EBCF5524595EEF00FE1D30 /* NNValidationCodeView.h */,
+				38EBCF5624595EEF00FE1D30 /* NNValidationCodeView.m */,
+				38EEB74F244D39080064E4FC /* UIView+Frame.h */,
+				38EEB74E244D39080064E4FC /* UIView+Frame.m */,
+				38EEB4DA244D31E90064E4FC /* EncryptAndDecryptTool.h */,
+				38EEB4D6244D31E90064E4FC /* EncryptAndDecryptTool.m */,
+				38EEB4D7244D31E90064E4FC /* CountDown.h */,
+				38EEB4DB244D31E90064E4FC /* CountDown.m */,
+				38EEB4D8244D31E90064E4FC /* UIView+Toast.h */,
+				38EEB4DD244D31E90064E4FC /* UIView+Toast.m */,
+				38EEB4D9244D31E90064E4FC /* ZDPayFuncTool.h */,
+				38EEB4DC244D31E90064E4FC /* ZDPayFuncTool.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		38EEB4DE244D31E90064E4FC /* NetRequest */ = {
+			isa = PBXGroup;
+			children = (
+				38EEB4DF244D31E90064E4FC /* ZDPayNetRequestManager.h */,
+				38EEB4E0244D31E90064E4FC /* ZDPayNetRequestManager.m */,
+			);
+			path = NetRequest;
+			sourceTree = "<group>";
+		};
+		38EEB4E4244D31E90064E4FC /* UI_ZDPay */ = {
+			isa = PBXGroup;
+			children = (
+				38EEB4E5244D31E90064E4FC /* Resources */,
+				38EEB558244D31E90064E4FC /* Models */,
+				38EEB56E244D31E90064E4FC /* Views */,
+				38EEB561244D31E90064E4FC /* Controllers */,
+			);
+			path = UI_ZDPay;
+			sourceTree = "<group>";
+		};
+		38EEB4E5244D31E90064E4FC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				38EEB77A244D3DC90064E4FC /* class_two_slices */,
+				38EEB4E6244D31E90064E4FC /* bank_icon */,
+				38EEB4F1244D31E90064E4FC /* assets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		38EEB4E6244D31E90064E4FC /* bank_icon */ = {
+			isa = PBXGroup;
+			children = (
+				38EEB4E7244D31E90064E4FC /* icon_zhankai@2x.png */,
+				38EEB4E8244D31E90064E4FC /* icon_yingcang.png */,
+				38EEB4E9244D31E90064E4FC /* bohaiyinhang@3x.png */,
+				38EEB4EA244D31E90064E4FC /* icon_zhankai@3x.png */,
+				38EEB4EB244D31E90064E4FC /* icon_add@2x.png */,
+				38EEB4EC244D31E90064E4FC /* icon_add@3x.png */,
+				38EEB4ED244D31E90064E4FC /* icon_yingcang@2x.png */,
+				38EEB4EE244D31E90064E4FC /* icon_yingcang@3x.png */,
+				38EEB4EF244D31E90064E4FC /* icon_zhankai.png */,
+				38EEB4F0244D31E90064E4FC /* icon_add.png */,
+			);
+			path = bank_icon;
+			sourceTree = "<group>";
+		};
+		38EEB4F1244D31E90064E4FC /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				38EEB4F2244D31E90064E4FC /* alipay-hk@2x.png */,
+				38EEB4F3244D31E90064E4FC /* icon_shop_fill@3x.png */,
+				38EEB4F4244D31E90064E4FC /* icon_dd_fill@3x.png */,
+				38EEB4F5244D31E90064E4FC /* pic_success.png */,
+				38EEB4F6244D31E90064E4FC /* icon_map_fill@3x.png */,
+				38EEB4F7244D31E90064E4FC /* pic_iphone.png */,
+				38EEB4F8244D31E90064E4FC /* icon_close.png */,
+				38EEB4F9244D31E90064E4FC /* icon_bdsj@2x.png */,
+				38EEB4FA244D31E90064E4FC /* icon_right.png */,
+				38EEB4FB244D31E90064E4FC /* btn_unch@2x.png */,
+				38EEB4FC244D31E90064E4FC /* icon_mine_fill@2x.png */,
+				38EEB4FD244D31E90064E4FC /* icon_dd_fill.png */,
+				38EEB4FE244D31E90064E4FC /* icon_gr@2x.png */,
+				38EEB4FF244D31E90064E4FC /* icon_gr@3x.png */,
+				38EEB500244D31E90064E4FC /* btn_unch@3x.png */,
+				38EEB501244D31E90064E4FC /* icon_jiaoyimingxi.png */,
+				38EEB502244D31E90064E4FC /* icon_mine_fill@3x.png */,
+				38EEB503244D31E90064E4FC /* icon_bdsj@3x.png */,
+				38EEB504244D31E90064E4FC /* icon_map_fill@2x.png */,
+				38EEB505244D31E90064E4FC /* btn_choose.png */,
+				38EEB506244D31E90064E4FC /* btn_xieyi_unsel.png */,
+				38EEB507244D31E90064E4FC /* icon_dd_fill@2x.png */,
+				38EEB508244D31E90064E4FC /* icon_shop_fill@2x.png */,
+				38EEB509244D31E90064E4FC /* alipay-hk@3x.png */,
+				38EEB50A244D31E90064E4FC /* icon_wallet.png */,
+				38EEB50B244D31E90064E4FC /* icon_jiaoyimingxi@3x.png */,
+				38EEB50C244D31E90064E4FC /* pic_type.png */,
+				38EEB50D244D31E90064E4FC /* icon_dd@3x.png */,
+				38EEB50E244D31E90064E4FC /* icon_dd.png */,
+				38EEB50F244D31E90064E4FC /* icon_sm.png */,
+				38EEB510244D31E90064E4FC /* card_yecz@3x.png */,
+				38EEB511244D31E90064E4FC /* card_yajincz@2x.png */,
+				38EEB512244D31E90064E4FC /* card_yecz.png */,
+				38EEB513244D31E90064E4FC /* icon_qiehuan.png */,
+				38EEB514244D31E90064E4FC /* alipay-hk.png */,
+				38EEB515244D31E90064E4FC /* icon_dingdan@3x.png */,
+				38EEB516244D31E90064E4FC /* icon_dingdan.png */,
+				38EEB517244D31E90064E4FC /* icon_dingdan@2x.png */,
+				38EEB518244D31E90064E4FC /* card_yecz@2x.png */,
+				38EEB519244D31E90064E4FC /* card_yajincz@3x.png */,
+				38EEB51A244D31E90064E4FC /* icon_dd@2x.png */,
+				38EEB51B244D31E90064E4FC /* icon_hlep.png */,
+				38EEB51C244D31E90064E4FC /* icon_jiaoyimingxi@2x.png */,
+				38EEB51D244D31E90064E4FC /* icon_signout.png */,
+				38EEB51E244D31E90064E4FC /* pic_type@3x.png */,
+				38EEB51F244D31E90064E4FC /* icon_guanyu@2x.png */,
+				38EEB520244D31E90064E4FC /* pic_iphone@3x.png */,
+				38EEB521244D31E90064E4FC /* btn_xieyi_selete.png */,
+				38EEB522244D31E90064E4FC /* icon_mine_fill.png */,
+				38EEB523244D31E90064E4FC /* icon_map.png */,
+				38EEB524244D31E90064E4FC /* icon_guzhang@3x.png */,
+				38EEB525244D31E90064E4FC /* icon_right@2x.png */,
+				38EEB526244D31E90064E4FC /* icon_hlep_fill.png */,
+				38EEB527244D31E90064E4FC /* pic_success@3x.png */,
+				38EEB528244D31E90064E4FC /* btn_xieyi_selete@3x.png */,
+				38EEB529244D31E90064E4FC /* icon_hlep_fill@3x.png */,
+				38EEB52A244D31E90064E4FC /* icon_hlep@3x.png */,
+				38EEB52B244D31E90064E4FC /* pic_android@2x.png */,
+				38EEB52C244D31E90064E4FC /* icon_wallet@2x.png */,
+				38EEB52D244D31E90064E4FC /* icon_qiehuan@3x.png */,
+				38EEB52E244D31E90064E4FC /* icon_qiehuan@2x.png */,
+				38EEB52F244D31E90064E4FC /* icon_wallet@3x.png */,
+				38EEB530244D31E90064E4FC /* pic_android@3x.png */,
+				38EEB531244D31E90064E4FC /* icon_map_fill.png */,
+				38EEB532244D31E90064E4FC /* icon_hlep@2x.png */,
+				38EEB533244D31E90064E4FC /* btn_xieyi_selete@2x.png */,
+				38EEB534244D31E90064E4FC /* icon_hlep_fill@2x.png */,
+				38EEB535244D31E90064E4FC /* pic_success@2x.png */,
+				38EEB536244D31E90064E4FC /* icon_shop.png */,
+				38EEB537244D31E90064E4FC /* icon_right@3x.png */,
+				38EEB538244D31E90064E4FC /* icon_gr.png */,
+				38EEB539244D31E90064E4FC /* weixin_icon.png */,
+				38EEB53A244D31E90064E4FC /* icon_guzhang@2x.png */,
+				38EEB53B244D31E90064E4FC /* btn_unch.png */,
+				38EEB53C244D31E90064E4FC /* icon_guanyu.png */,
+				38EEB53D244D31E90064E4FC /* pic_iphone@2x.png */,
+				38EEB53E244D31E90064E4FC /* pic_type@2x.png */,
+				38EEB53F244D31E90064E4FC /* icon_guanyu@3x.png */,
+				38EEB540244D31E90064E4FC /* btn_choose@3x.png */,
+				38EEB541244D31E90064E4FC /* icon_signout@2x.png */,
+				38EEB542244D31E90064E4FC /* card_yajincz.png */,
+				38EEB543244D31E90064E4FC /* icon_guzhang.png */,
+				38EEB544244D31E90064E4FC /* icon_map@2x.png */,
+				38EEB545244D31E90064E4FC /* icon_close@3x.png */,
+				38EEB546244D31E90064E4FC /* pic_android.png */,
+				38EEB547244D31E90064E4FC /* btn_xieyi_unsel@2x.png */,
+				38EEB548244D31E90064E4FC /* pic_01.png */,
+				38EEB549244D31E90064E4FC /* pic_01@3x.png */,
+				38EEB54A244D31E90064E4FC /* icon_shop@3x.png */,
+				38EEB54B244D31E90064E4FC /* weixin_icon@2x.png */,
+				38EEB54C244D31E90064E4FC /* icon_sm@3x.png */,
+				38EEB54D244D31E90064E4FC /* icon_sm@2x.png */,
+				38EEB54E244D31E90064E4FC /* weixin_icon@3x.png */,
+				38EEB54F244D31E90064E4FC /* icon_bdsj.png */,
+				38EEB550244D31E90064E4FC /* pic_01@2x.png */,
+				38EEB551244D31E90064E4FC /* icon_shop@2x.png */,
+				38EEB552244D31E90064E4FC /* btn_xieyi_unsel@3x.png */,
+				38EEB553244D31E90064E4FC /* icon_close@2x.png */,
+				38EEB554244D31E90064E4FC /* icon_map@3x.png */,
+				38EEB555244D31E90064E4FC /* icon_shop_fill.png */,
+				38EEB556244D31E90064E4FC /* btn_choose@2x.png */,
+				38EEB557244D31E90064E4FC /* icon_signout@3x.png */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		38EEB558244D31E90064E4FC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				38EEB559244D31E90064E4FC /* ZDPay_OrderSureModel.m */,
+				38EEB55B244D31E90064E4FC /* ZDPay_OrderSureRespModel.h */,
+				38EEB55F244D31E90064E4FC /* ZDPay_OrderSureRespModel.m */,
+				38EEB55E244D31E90064E4FC /* ZDPay_OrderSurePayListRespModel.h */,
+				38EEB55A244D31E90064E4FC /* ZDPay_OrderSurePayListRespModel.m */,
+				38EEB560244D31E90064E4FC /* ZDPay_OrderSureBankListRespModel.h */,
+				38EEB55C244D31E90064E4FC /* ZDPay_OrderSureBankListRespModel.m */,
+				38EEB787244D90650064E4FC /* ZDPay_OrderBankListTokenModel.h */,
+				38EEB788244D90650064E4FC /* ZDPay_OrderBankListTokenModel.m */,
+				38EEB78A244DA2B50064E4FC /* ZDPay_AddBankCardReqModel.h */,
+				38EEB78B244DA2B50064E4FC /* ZDPay_AddBankCardReqModel.m */,
+				38EC884B244ED7A5007C30AA /* ZDPay_AddBankModel.h */,
+				38EC884C244ED7A5007C30AA /* ZDPay_AddBankModel.m */,
+				38E809A42457D69300071DF3 /* ZDPayInternationalizationModel.h */,
+				38E809A52457D69300071DF3 /* ZDPayInternationalizationModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		38EEB561244D31E90064E4FC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				38EEB56B244D31E90064E4FC /* ZDPay_OrderSureViewController.m */,
+				38EEB569244D31E90064E4FC /* ZDPay_MyWalletViewController.m */,
+				38EEB562244D31E90064E4FC /* ZDPay_SecurityVerificationSecondViewController.h */,
+				38EEB568244D31E90064E4FC /* ZDPay_SecurityVerificationSecondViewController.m */,
+				38EEB567244D31E90064E4FC /* ZDPay_AddBankCardViewController.h */,
+				38EEB56C244D31E90064E4FC /* ZDPay_AddBankCardViewController.m */,
+				38EEB56A244D31E90064E4FC /* ZDPay_AddBankCardSecondViewController.h */,
+				38EEB564244D31E90064E4FC /* ZDPay_AddBankCardSecondViewController.m */,
+				38EEB566244D31E90064E4FC /* ZDPay_SafetyCertificationViewController.h */,
+				38EEB56D244D31E90064E4FC /* ZDPay_SafetyCertificationViewController.m */,
+				3891FFA5245058C000B2A5F0 /* ZD_PayForgetPasswordViewController.h */,
+				3891FFA6245058C000B2A5F0 /* ZD_PayForgetPasswordViewController.m */,
+				38A7578624514ABD00035E1D /* ZDPay_SetConfirPasswordViewController.h */,
+				38A7578724514ABD00035E1D /* ZDPay_SetConfirPasswordViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		38EEB56E244D31E90064E4FC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				38EEB578244D31E90064E4FC /* ZDPay_OrderSureTableViewCell.h */,
+				38EEB572244D31E90064E4FC /* ZDPay_OrderSureTableViewCell.m */,
+				38EEB577244D31E90064E4FC /* ZDPay_OrderSureFooterView.h */,
+				38EEB573244D31E90064E4FC /* ZDPay_OrderSureFooterView.m */,
+				38EEB571244D31E90064E4FC /* ZDPay_OrderSureHeaderView.h */,
+				38EEB576244D31E90064E4FC /* ZDPay_OrderSureHeaderView.m */,
+				38EEB56F244D31E90064E4FC /* ZDPay_MywalletTableViewCell.h */,
+				38EEB575244D31E90064E4FC /* ZDPay_MywalletTableViewCell.m */,
+				38EEB574244D31E90064E4FC /* ZDPay_BankCardSecondTableViewCell.h */,
+				38EEB570244D31E90064E4FC /* ZDPay_BankCardSecondTableViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		38EEB61D244D38280064E4FC /* ThridLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				38EEB64A244D38620064E4FC /* MJExtension */,
+			);
+			path = ThridLibrary;
+			sourceTree = "<group>";
+		};
+		38EEB64A244D38620064E4FC /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				38EEB64B244D38620064E4FC /* MJExtension */,
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+		38EEB64B244D38620064E4FC /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				38EEB64C244D38620064E4FC /* MJPropertyKey.h */,
+				38EEB64D244D38620064E4FC /* NSObject+MJClass.h */,
+				38EEB64E244D38620064E4FC /* NSString+MJExtension.h */,
+				38EEB64F244D38620064E4FC /* MJPropertyType.m */,
+				38EEB650244D38620064E4FC /* NSObject+MJProperty.h */,
+				38EEB651244D38620064E4FC /* MJExtensionConst.h */,
+				38EEB652244D38620064E4FC /* NSObject+MJKeyValue.m */,
+				38EEB653244D38620064E4FC /* MJProperty.m */,
+				38EEB654244D38620064E4FC /* MJFoundation.h */,
+				38EEB655244D38620064E4FC /* NSObject+MJCoding.m */,
+				38EEB656244D38620064E4FC /* MJExtension.h */,
+				38EEB657244D38620064E4FC /* MJExtensionConst.m */,
+				38EEB658244D38620064E4FC /* NSObject+MJProperty.m */,
+				38EEB659244D38620064E4FC /* MJPropertyType.h */,
+				38EEB65A244D38620064E4FC /* NSObject+MJClass.m */,
+				38EEB65B244D38620064E4FC /* NSString+MJExtension.m */,
+				38EEB65C244D38620064E4FC /* MJPropertyKey.m */,
+				38EEB65D244D38620064E4FC /* MJProperty.h */,
+				38EEB65E244D38620064E4FC /* NSObject+MJKeyValue.h */,
+				38EEB65F244D38620064E4FC /* NSObject+MJCoding.h */,
+				38EEB660244D38620064E4FC /* MJFoundation.m */,
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+		38EEB77A244D3DC90064E4FC /* class_two_slices */ = {
+			isa = PBXGroup;
+			children = (
+				384CF0E2246E7C8B00833674 /* popup_cvn.png */,
+				384CF0E1246E7C8B00833674 /* popup_cvn@2x.png */,
+				384CF0E5246E7C8B00833674 /* popup_cvn@3x.png */,
+				384CF0E3246E7C8B00833674 /* popup_youxiao.png */,
+				384CF0E4246E7C8B00833674 /* popup_youxiao@2x.png */,
+				384CF0E0246E7C8A00833674 /* popup_youxiao@3x.png */,
+				3841BC3F246BDD6A00A217C9 /* pic_wuka.png */,
+				3841BC3D246BDD6A00A217C9 /* pic_wuka@2x.png */,
+				3841BC3E246BDD6A00A217C9 /* pic_wuka@3x.png */,
+				38E2419524653D1500815218 /* icon_card_add.png */,
+				38E2419424653D1500815218 /* icon_card_add@2x.png */,
+				38E2419624653D1500815218 /* icon_card_add@3x.png */,
+				3891FF9C2450436A00B2A5F0 /* icon_cvn.png */,
+				3891FF9B2450436A00B2A5F0 /* icon_cvn@2x.png */,
+				3891FF992450436A00B2A5F0 /* icon_cvn@3x.png */,
+				3891FF9E2450436A00B2A5F0 /* icon_zj_sel.png */,
+				3891FF9D2450436A00B2A5F0 /* icon_zj_sel@2x.png */,
+				3891FF9A2450436A00B2A5F0 /* icon_zj_sel@3x.png */,
+				3891FF9224503DCF00B2A5F0 /* icon_sjihao.png */,
+				3891FF9024503DCF00B2A5F0 /* icon_sjihao@2x.png */,
+				3891FF8E24503DCF00B2A5F0 /* icon_sjihao@3x.png */,
+				3891FF8D24503DCF00B2A5F0 /* icon_zjlx.png */,
+				3891FF8F24503DCF00B2A5F0 /* icon_zjlx@2x.png */,
+				3891FF9124503DCF00B2A5F0 /* icon_zjlx@3x.png */,
+				38EEB77B244D3DC90064E4FC /* class_navbar_icon_return_nor.png */,
+				38EEB77C244D3DC90064E4FC /* class_navbar_icon_return_nor@3x.png */,
+				38EEB77D244D3DC90064E4FC /* class_navbar_icon_return_nor@2x.png */,
+			);
+			path = class_two_slices;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38EEB4A9244D2B480064E4FC /* ZDPaySDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38EEB4C3244D2B4A0064E4FC /* Build configuration list for PBXNativeTarget "ZDPaySDK" */;
+			buildPhases = (
+				38EEB4A6244D2B480064E4FC /* Sources */,
+				38EEB4A7244D2B480064E4FC /* Frameworks */,
+				38EEB4A8244D2B480064E4FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZDPaySDK;
+			productName = ZDPaySDK;
+			productReference = 38EEB4AA244D2B480064E4FC /* ZDPaySDK.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38EEB4A2244D2B480064E4FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = ZhongDaoGroup;
+				TargetAttributes = {
+					38EEB4A9244D2B480064E4FC = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 38EEB4A5244D2B480064E4FC /* Build configuration list for PBXProject "ZDPaySDK" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38EEB4A1244D2B480064E4FC;
+			productRefGroup = 38EEB4AB244D2B480064E4FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38EEB4A9244D2B480064E4FC /* ZDPaySDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38EEB4A8244D2B480064E4FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38EEB5CA244D31E90064E4FC /* pic_android@3x.png in Resources */,
+				3891FFA02450436A00B2A5F0 /* icon_zj_sel@3x.png in Resources */,
+				38EEB5AE244D31E90064E4FC /* alipay-hk.png in Resources */,
+				38EEB5C1244D31E90064E4FC /* pic_success@3x.png in Resources */,
+				38EEB590244D31E90064E4FC /* icon_map_fill@3x.png in Resources */,
+				38EEB5CC244D31E90064E4FC /* icon_hlep@2x.png in Resources */,
+				38EEB5E2244D31E90064E4FC /* pic_01.png in Resources */,
+				38EEB585244D31E90064E4FC /* icon_zhankai@3x.png in Resources */,
+				38EEB5E9244D31E90064E4FC /* icon_bdsj.png in Resources */,
+				38EEB5E7244D31E90064E4FC /* icon_sm@2x.png in Resources */,
+				38EEB5BB244D31E90064E4FC /* btn_xieyi_selete.png in Resources */,
+				38EEB5B4244D31E90064E4FC /* icon_dd@2x.png in Resources */,
+				38EEB5B7244D31E90064E4FC /* icon_signout.png in Resources */,
+				38EEB58A244D31E90064E4FC /* icon_zhankai.png in Resources */,
+				38EEB5AD244D31E90064E4FC /* icon_qiehuan.png in Resources */,
+				38EEB5EA244D31E90064E4FC /* pic_01@2x.png in Resources */,
+				38EEB5BC244D31E90064E4FC /* icon_mine_fill.png in Resources */,
+				38EEB5B6244D31E90064E4FC /* icon_jiaoyimingxi@2x.png in Resources */,
+				38EEB5E3244D31E90064E4FC /* pic_01@3x.png in Resources */,
+				38EEB5C0244D31E90064E4FC /* icon_hlep_fill.png in Resources */,
+				38EEB5A1244D31E90064E4FC /* icon_dd_fill@2x.png in Resources */,
+				38EEB5BA244D31E90064E4FC /* pic_iphone@3x.png in Resources */,
+				3841BC41246BDD6A00A217C9 /* pic_wuka@3x.png in Resources */,
+				38EEB594244D31E90064E4FC /* icon_right.png in Resources */,
+				38EEB5E5244D31E90064E4FC /* weixin_icon@2x.png in Resources */,
+				38EC8825244E9BF9007C30AA /* AlipaySDK.bundle in Resources */,
+				3891FFA22450436A00B2A5F0 /* icon_cvn.png in Resources */,
+				38EEB77F244D3DC90064E4FC /* class_navbar_icon_return_nor@3x.png in Resources */,
+				38EEB592244D31E90064E4FC /* icon_close.png in Resources */,
+				38EEB5EF244D31E90064E4FC /* icon_shop_fill.png in Resources */,
+				38EEB5D0244D31E90064E4FC /* icon_shop.png in Resources */,
+				38EEB5D1244D31E90064E4FC /* icon_right@3x.png in Resources */,
+				38EEB5A9244D31E90064E4FC /* icon_sm.png in Resources */,
+				38EEB5B2244D31E90064E4FC /* card_yecz@2x.png in Resources */,
+				38EEB5B3244D31E90064E4FC /* card_yajincz@3x.png in Resources */,
+				38EEB5A2244D31E90064E4FC /* icon_shop_fill@2x.png in Resources */,
+				38EEB4BD244D2B4A0064E4FC /* LaunchScreen.storyboard in Resources */,
+				38EEB59C244D31E90064E4FC /* icon_mine_fill@3x.png in Resources */,
+				3891FF9524503DCF00B2A5F0 /* icon_zjlx@2x.png in Resources */,
+				3891FFA32450436A00B2A5F0 /* icon_zj_sel@2x.png in Resources */,
+				38EEB5C5244D31E90064E4FC /* pic_android@2x.png in Resources */,
+				38EEB597244D31E90064E4FC /* icon_dd_fill.png in Resources */,
+				38EEB5A8244D31E90064E4FC /* icon_dd.png in Resources */,
+				38EEB5C8244D31E90064E4FC /* icon_qiehuan@2x.png in Resources */,
+				38EEB5B1244D31E90064E4FC /* icon_dingdan@2x.png in Resources */,
+				38EEB5CD244D31E90064E4FC /* btn_xieyi_selete@2x.png in Resources */,
+				38EEB5DD244D31E90064E4FC /* icon_guzhang.png in Resources */,
+				38EEB5C2244D31E90064E4FC /* btn_xieyi_selete@3x.png in Resources */,
+				38EEB59B244D31E90064E4FC /* icon_jiaoyimingxi.png in Resources */,
+				38EEB5CF244D31E90064E4FC /* pic_success@2x.png in Resources */,
+				38EEB5AB244D31E90064E4FC /* card_yajincz@2x.png in Resources */,
+				38EEB5D4244D31E90064E4FC /* icon_guzhang@2x.png in Resources */,
+				38EEB583244D31E90064E4FC /* icon_yingcang.png in Resources */,
+				38EEB5D3244D31E90064E4FC /* weixin_icon.png in Resources */,
+				38EEB4BA244D2B4A0064E4FC /* Assets.xcassets in Resources */,
+				38EEB582244D31E90064E4FC /* icon_zhankai@2x.png in Resources */,
+				38EEB5BD244D31E90064E4FC /* icon_map.png in Resources */,
+				38EEB596244D31E90064E4FC /* icon_mine_fill@2x.png in Resources */,
+				38EEB58F244D31E90064E4FC /* pic_success.png in Resources */,
+				38EEB58B244D31E90064E4FC /* icon_add.png in Resources */,
+				38EEB5E0244D31E90064E4FC /* pic_android.png in Resources */,
+				38EEB5B9244D31E90064E4FC /* icon_guanyu@2x.png in Resources */,
+				3891FFA12450436A00B2A5F0 /* icon_cvn@2x.png in Resources */,
+				38EEB593244D31E90064E4FC /* icon_bdsj@2x.png in Resources */,
+				3841BC42246BDD6A00A217C9 /* pic_wuka.png in Resources */,
+				38EEB58E244D31E90064E4FC /* icon_dd_fill@3x.png in Resources */,
+				38EEB587244D31E90064E4FC /* icon_add@3x.png in Resources */,
+				38EEB5C9244D31E90064E4FC /* icon_wallet@3x.png in Resources */,
+				38EEB780244D3DC90064E4FC /* class_navbar_icon_return_nor@2x.png in Resources */,
+				38EEB5C6244D31E90064E4FC /* icon_wallet@2x.png in Resources */,
+				38EEB59D244D31E90064E4FC /* icon_bdsj@3x.png in Resources */,
+				38EEB5CB244D31E90064E4FC /* icon_map_fill.png in Resources */,
+				3891FF9724503DCF00B2A5F0 /* icon_zjlx@3x.png in Resources */,
+				3891FF9424503DCF00B2A5F0 /* icon_sjihao@3x.png in Resources */,
+				38EEB586244D31E90064E4FC /* icon_add@2x.png in Resources */,
+				38EEB58D244D31E90064E4FC /* icon_shop_fill@3x.png in Resources */,
+				38EEB59A244D31E90064E4FC /* btn_unch@3x.png in Resources */,
+				38E2419824653D1500815218 /* icon_card_add.png in Resources */,
+				38EEB5F1244D31E90064E4FC /* icon_signout@3x.png in Resources */,
+				38EEB5DC244D31E90064E4FC /* card_yajincz.png in Resources */,
+				384CF0E9246E7C8B00833674 /* popup_youxiao.png in Resources */,
+				38EEB5AF244D31E90064E4FC /* icon_dingdan@3x.png in Resources */,
+				38EEB5D2244D31E90064E4FC /* icon_gr.png in Resources */,
+				38EEB5EE244D31E90064E4FC /* icon_map@3x.png in Resources */,
+				38EEB77E244D3DC90064E4FC /* class_navbar_icon_return_nor.png in Resources */,
+				38EEB599244D31E90064E4FC /* icon_gr@3x.png in Resources */,
+				384CF0E7246E7C8B00833674 /* popup_cvn@2x.png in Resources */,
+				38EEB595244D31E90064E4FC /* btn_unch@2x.png in Resources */,
+				38EEB58C244D31E90064E4FC /* alipay-hk@2x.png in Resources */,
+				3891FF9824503DCF00B2A5F0 /* icon_sjihao.png in Resources */,
+				38EEB598244D31E90064E4FC /* icon_gr@2x.png in Resources */,
+				384CF0E6246E7C8B00833674 /* popup_youxiao@3x.png in Resources */,
+				38EEB5BE244D31E90064E4FC /* icon_guzhang@3x.png in Resources */,
+				38EEB5F0244D31E90064E4FC /* btn_choose@2x.png in Resources */,
+				38EEB5CE244D31E90064E4FC /* icon_hlep_fill@2x.png in Resources */,
+				38E2419924653D1500815218 /* icon_card_add@3x.png in Resources */,
+				38EEB5B8244D31E90064E4FC /* pic_type@3x.png in Resources */,
+				38EEB59F244D31E90064E4FC /* btn_choose.png in Resources */,
+				3891FFA42450436A00B2A5F0 /* icon_zj_sel.png in Resources */,
+				38EEB5D5244D31E90064E4FC /* btn_unch.png in Resources */,
+				384CF0EA246E7C8B00833674 /* popup_youxiao@2x.png in Resources */,
+				38EEB5D6244D31E90064E4FC /* icon_guanyu.png in Resources */,
+				38EEB5C4244D31E90064E4FC /* icon_hlep@3x.png in Resources */,
+				38E2419724653D1500815218 /* icon_card_add@2x.png in Resources */,
+				38EEB5BF244D31E90064E4FC /* icon_right@2x.png in Resources */,
+				38EEB5A7244D31E90064E4FC /* icon_dd@3x.png in Resources */,
+				3891FF9F2450436A00B2A5F0 /* icon_cvn@3x.png in Resources */,
+				38EEB5B0244D31E90064E4FC /* icon_dingdan.png in Resources */,
+				384CF0E8246E7C8B00833674 /* popup_cvn.png in Resources */,
+				38EEB5EB244D31E90064E4FC /* icon_shop@2x.png in Resources */,
+				384CF0EB246E7C8B00833674 /* popup_cvn@3x.png in Resources */,
+				38EEB5A5244D31E90064E4FC /* icon_jiaoyimingxi@3x.png in Resources */,
+				38EEB5E8244D31E90064E4FC /* weixin_icon@3x.png in Resources */,
+				3891FF9624503DCF00B2A5F0 /* icon_sjihao@2x.png in Resources */,
+				38EEB5C3244D31E90064E4FC /* icon_hlep_fill@3x.png in Resources */,
+				38EEB5E1244D31E90064E4FC /* btn_xieyi_unsel@2x.png in Resources */,
+				38EEB5E4244D31E90064E4FC /* icon_shop@3x.png in Resources */,
+				38EEB589244D31E90064E4FC /* icon_yingcang@3x.png in Resources */,
+				38EEB5DA244D31E90064E4FC /* btn_choose@3x.png in Resources */,
+				38EEB5E6244D31E90064E4FC /* icon_sm@3x.png in Resources */,
+				38EEB5A3244D31E90064E4FC /* alipay-hk@3x.png in Resources */,
+				38EEB5A4244D31E90064E4FC /* icon_wallet.png in Resources */,
+				38EEB5D7244D31E90064E4FC /* pic_iphone@2x.png in Resources */,
+				38EEB5DF244D31E90064E4FC /* icon_close@3x.png in Resources */,
+				38EEB591244D31E90064E4FC /* pic_iphone.png in Resources */,
+				38EEB5DE244D31E90064E4FC /* icon_map@2x.png in Resources */,
+				3891FF9324503DCF00B2A5F0 /* icon_zjlx.png in Resources */,
+				3841BC40246BDD6A00A217C9 /* pic_wuka@2x.png in Resources */,
+				38EEB5A0244D31E90064E4FC /* btn_xieyi_unsel.png in Resources */,
+				38EEB588244D31E90064E4FC /* icon_yingcang@2x.png in Resources */,
+				38EEB5A6244D31E90064E4FC /* pic_type.png in Resources */,
+				38EEB5EC244D31E90064E4FC /* btn_xieyi_unsel@3x.png in Resources */,
+				38EEB5ED244D31E90064E4FC /* icon_close@2x.png in Resources */,
+				38EEB59E244D31E90064E4FC /* icon_map_fill@2x.png in Resources */,
+				38EEB5B5244D31E90064E4FC /* icon_hlep.png in Resources */,
+				38EEB5D9244D31E90064E4FC /* icon_guanyu@3x.png in Resources */,
+				38EEB584244D31E90064E4FC /* bohaiyinhang@3x.png in Resources */,
+				38EEB5DB244D31E90064E4FC /* icon_signout@2x.png in Resources */,
+				38EEB5D8244D31E90064E4FC /* pic_type@2x.png in Resources */,
+				38EEB5AA244D31E90064E4FC /* card_yecz@3x.png in Resources */,
+				38EEB5C7244D31E90064E4FC /* icon_qiehuan@3x.png in Resources */,
+				38EEB5AC244D31E90064E4FC /* card_yecz.png in Resources */,
+				38EEB4B8244D2B480064E4FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38EEB4A6244D2B480064E4FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38EC8820244E9BF9007C30AA /* payRequsestHandler.mm in Sources */,
+				38EEB703244D38620064E4FC /* MJProperty.m in Sources */,
+				38EEB4AF244D2B480064E4FC /* AppDelegate.m in Sources */,
+				38EEB70A244D38620064E4FC /* MJFoundation.m in Sources */,
+				38EEB580244D31E90064E4FC /* ZDPayNetRequestManager.m in Sources */,
+				38EEB600244D31E90064E4FC /* ZDPay_OrderSureHeaderView.m in Sources */,
+				38EC882F244E9BF9007C30AA /* APAuthV2Info.m in Sources */,
+				38EEB5F5244D31E90064E4FC /* ZDPay_OrderSureRespModel.m in Sources */,
+				38EEB5FA244D31E90064E4FC /* ZDPay_AddBankCardViewController.m in Sources */,
+				38EEB57E244D31E90064E4FC /* ZDPayFuncTool.m in Sources */,
+				38EEB57A244D31E90064E4FC /* ZDPayRootModel.m in Sources */,
+				38EEB4CB244D31C70064E4FC /* ViewController.m in Sources */,
+				38EEB705244D38620064E4FC /* MJExtensionConst.m in Sources */,
+				38EEB750244D39080064E4FC /* UIView+Frame.m in Sources */,
+				38EC881D244E9BF9007C30AA /* PayModel.m in Sources */,
+				38EEB789244D90650064E4FC /* ZDPay_OrderBankListTokenModel.m in Sources */,
+				38EEB708244D38620064E4FC /* NSString+MJExtension.m in Sources */,
+				38EEB78C244DA2B50064E4FC /* ZDPay_AddBankCardReqModel.m in Sources */,
+				38EBCF5724595EEF00FE1D30 /* NNValidationCodeView.m in Sources */,
+				38EEB5F3244D31E90064E4FC /* ZDPay_OrderSurePayListRespModel.m in Sources */,
+				3891FFA7245058C000B2A5F0 /* ZD_PayForgetPasswordViewController.m in Sources */,
+				38EEB4C0244D2B4A0064E4FC /* main.m in Sources */,
+				38A7578824514ABD00035E1D /* ZDPay_SetConfirPasswordViewController.m in Sources */,
+				38EC882B244E9BF9007C30AA /* base64.m in Sources */,
+				38EEB706244D38620064E4FC /* NSObject+MJProperty.m in Sources */,
+				38EC881E244E9BF9007C30AA /* WXUtil.mm in Sources */,
+				38EEB5F2244D31E90064E4FC /* ZDPay_OrderSureModel.m in Sources */,
+				38EC881F244E9BF9007C30AA /* ApiXml.mm in Sources */,
+				38EC8823244E9BF9007C30AA /* Order.m in Sources */,
+				38EC8833244E9BF9007C30AA /* UPPayTool.m in Sources */,
+				38EEB57B244D31E90064E4FC /* ZDNaviBarView.m in Sources */,
+				38EEB5F7244D31E90064E4FC /* ZDPay_SecurityVerificationSecondViewController.m in Sources */,
+				38EEB702244D38620064E4FC /* NSObject+MJKeyValue.m in Sources */,
+				38EEB57C244D31E90064E4FC /* EncryptAndDecryptTool.m in Sources */,
+				38EC8831244E9BF9007C30AA /* AlipayTool.m in Sources */,
+				38EEB707244D38620064E4FC /* NSObject+MJClass.m in Sources */,
+				38EEB5F6244D31E90064E4FC /* ZDPay_AddBankCardSecondViewController.m in Sources */,
+				38EEB701244D38620064E4FC /* MJPropertyType.m in Sources */,
+				38EEB5FD244D31E90064E4FC /* ZDPay_OrderSureTableViewCell.m in Sources */,
+				38EC8828244E9BF9007C30AA /* RSADataVerifier.m in Sources */,
+				38EC882D244E9BF9007C30AA /* RSADataSigner.m in Sources */,
+				38EEB5FB244D31E90064E4FC /* ZDPay_SafetyCertificationViewController.m in Sources */,
+				38EEB5F4244D31E90064E4FC /* ZDPay_OrderSureBankListRespModel.m in Sources */,
+				38EC884D244ED7A5007C30AA /* ZDPay_AddBankModel.m in Sources */,
+				38EEB579244D31E90064E4FC /* ZDPayRootViewController.m in Sources */,
+				38EEB5F9244D31E90064E4FC /* ZDPay_OrderSureViewController.m in Sources */,
+				38EEB57F244D31E90064E4FC /* UIView+Toast.m in Sources */,
+				38EEB57D244D31E90064E4FC /* CountDown.m in Sources */,
+				38E809A62457D69300071DF3 /* ZDPayInternationalizationModel.m in Sources */,
+				38EC881B244E9BF9007C30AA /* ZDGPayManagerTool.m in Sources */,
+				38EEB5FF244D31E90064E4FC /* ZDPay_MywalletTableViewCell.m in Sources */,
+				38EC8829244E9BF9007C30AA /* NSDataEx.m in Sources */,
+				38EEB709244D38620064E4FC /* MJPropertyKey.m in Sources */,
+				38EEB5F8244D31E90064E4FC /* ZDPay_MyWalletViewController.m in Sources */,
+				38EC8826244E9BF9007C30AA /* openssl_wrapper.m in Sources */,
+				38EEB581244D31E90064E4FC /* ZDPayPopView.m in Sources */,
+				38EC8822244E9BF9007C30AA /* WeiXinPayTool.m in Sources */,
+				38EEB5FE244D31E90064E4FC /* ZDPay_OrderSureFooterView.m in Sources */,
+				38EEB704244D38620064E4FC /* NSObject+MJCoding.m in Sources */,
+				38EEB5FC244D31E90064E4FC /* ZDPay_BankCardSecondTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		38EEB4B6244D2B480064E4FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38EEB4B7244D2B480064E4FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38EEB4BB244D2B4A0064E4FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38EEB4BC244D2B4A0064E4FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38EEB4C1244D2B4A0064E4FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		38EEB4C2244D2B4A0064E4FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38EEB4C4244D2B4A0064E4FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ZDPaySDK/ZDPaySDKDebug.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4787RY9G47;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZDPaySDK/ZDPaySDK/ZDAggregatePayLibrary/支付宝支付/AliPay",
+				);
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/ZDPaySDK/ZDPaySDK/ZDAggregatePayLibrary/支付宝支付/AliPay";
+				INFOPLIST_FILE = ZDPaySDK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZDPaySDK/ZDPaySDK/ZDAggregatePayLibrary/苹果支付/applePaySDK/libs",
+					"$(PROJECT_DIR)/ZDPaySDK/ZDPaySDK/ZDAggregatePayLibrary/微信支付/SDKExport",
+					"$(PROJECT_DIR)/ZDPaySDK/ZDPaySDK/ZDAggregatePayLibrary/支付宝支付/AliPay",
+					"$(PROJECT_DIR)/ZDPaySDK/ZDPaySDK/ZDAggregatePayLibrary/银联支付/PayLib",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zdpay.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38EEB4C5244D2B4A0064E4FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ZDPaySDK/ZDPaySDK.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4787RY9G47;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZDPaySDK/ZDPaySDK/ZDAggregatePayLibrary/支付宝支付/AliPay",
+				);
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/ZDPaySDK/ZDPaySDK/ZDAggregatePayLibrary/支付宝支付/AliPay";
+				INFOPLIST_FILE = ZDPaySDK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZDPaySDK/ZDPaySDK/ZDAggregatePayLibrary/苹果支付/applePaySDK/libs",
+					"$(PROJECT_DIR)/ZDPaySDK/ZDPaySDK/ZDAggregatePayLibrary/微信支付/SDKExport",
+					"$(PROJECT_DIR)/ZDPaySDK/ZDPaySDK/ZDAggregatePayLibrary/支付宝支付/AliPay",
+					"$(PROJECT_DIR)/ZDPaySDK/ZDPaySDK/ZDAggregatePayLibrary/银联支付/PayLib",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bmall.XiaoMiFeng;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38EEB4A5244D2B480064E4FC /* Build configuration list for PBXProject "ZDPaySDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38EEB4C1244D2B4A0064E4FC /* Debug */,
+				38EEB4C2244D2B4A0064E4FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38EEB4C3244D2B4A0064E4FC /* Build configuration list for PBXNativeTarget "ZDPaySDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38EEB4C4244D2B4A0064E4FC /* Debug */,
+				38EEB4C5244D2B4A0064E4FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38EEB4A2244D2B480064E4FC /* Project object */;
+}
